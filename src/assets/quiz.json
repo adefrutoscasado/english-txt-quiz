@@ -166,5 +166,124 @@
     "timestamp": "2026-09-10",
     "description": "Practise 'sprinkle' first, then add the plural ending to build up to 'sprinklers'.",
     "category": "PRONUNCIATION"
+  },
+  {
+    "question": "Choose the natural sentence: 'Climbing is ___ than using a treadmill.'",
+    "answer": "Climbing is more fun than using a treadmill.",
+    "timestamp": "2026-09-12",
+    "description": "Use 'more fun' for something more enjoyable. 'Funnier' means more likely to make someone laugh.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Rewrite naturally: 'I did not practise much lately.'",
+    "answer": "I haven't practised much lately.",
+    "timestamp": "2026-09-12",
+    "description": "Use the present perfect with 'lately' when talking about a recent period connected to the present.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Complete the sentence: 'We replaced the old service ___ a simpler one.'",
+    "answer": "We replaced the old service with a simpler one.",
+    "timestamp": "2026-09-12",
+    "description": "The standard pattern is 'replace X with Y'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Choose the correct preposition: 'Maya wants to get better ___ TypeScript.'",
+    "answer": "Maya wants to get better at TypeScript.",
+    "timestamp": "2026-09-12",
+    "description": "Use 'get better at' before a skill, subject, activity, or technology.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Rewrite naturally: 'He used Python on the past.'",
+    "answer": "He used Python in the past.",
+    "timestamp": "2026-09-12",
+    "description": "The fixed expression is 'in the past'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Complete the sentence with the past participle of 'lead': 'She has ___ several technical decisions.'",
+    "answer": "She has led several technical decisions.",
+    "timestamp": "2026-09-12",
+    "description": "The irregular forms are lead, led, led. 'Leaded' is not used for the verb meaning to guide or direct.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Rewrite naturally: 'The manager tries the team to make important decisions.'",
+    "answer": "The manager encourages the team to make important decisions.",
+    "timestamp": "2026-09-12",
+    "description": "Use 'encourage someone to do something' when helping or motivating another person to act.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Complete the sentence: 'Can you ___ me what we were discussing?'",
+    "answer": "Can you remind me what we were discussing?",
+    "timestamp": "2026-09-12",
+    "description": "Use 'remind' when another person helps you remember something. 'Remember' describes recalling something yourself.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate naturally into English: 'La propuesta fue muy debatida antes de aprobarse.'",
+    "answer": "The proposal was heavily debated before it was approved.",
+    "timestamp": "2026-09-12",
+    "description": "'Heavily debated' is a natural collocation for a subject or proposal that receives a lot of serious discussion.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "In software architecture, what does 'decouple' mean?",
+    "answer": "To reduce direct dependencies between components so they can change more independently.",
+    "timestamp": "2026-09-12",
+    "description": "Decoupling can make systems easier to extend, test, and maintain.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Complete the technical sentence: 'Because most searches used time ranges, the team ___ the table by time.'",
+    "answer": "Because most searches used time ranges, the team partitioned the table by time.",
+    "timestamp": "2026-09-12",
+    "description": "To 'partition' a table means to split its data into smaller logical sections, often by a column such as time.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Choose the correct form: 'The query were fast' or 'The queries were fast.'",
+    "answer": "The queries were fast.",
+    "timestamp": "2026-09-12",
+    "description": "A plural subject such as 'queries' takes the plural verb 'were'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Complete the sentence naturally: '___ I mainly work with one language, I can build a complete application.'",
+    "answer": "Even though I mainly work with one language, I can build a complete application.",
+    "timestamp": "2026-09-12",
+    "description": "Use 'even though' to introduce a fact that contrasts with the main clause.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "What is the plural of 'calf' when referring to the lower part of the leg?",
+    "answer": "Calves.",
+    "timestamp": "2026-09-12",
+    "description": "The singular is 'calf' and the plural is 'calves'.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Which is more natural after a long walk: 'My legs were aching' or 'I had a legache'?",
+    "answer": "My legs were aching.",
+    "timestamp": "2026-09-12",
+    "description": "'Ache' works naturally as a verb. English has words such as 'headache' and 'backache', but 'legache' is not normally used.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Say the word 'result' aloud. Which syllable is stressed?",
+    "answer": "The second syllable: re-SULT.",
+    "timestamp": "2026-09-12",
+    "description": "Keep the main stress on the second syllable, not the first.",
+    "category": "PRONUNCIATION"
+  },
+  {
+    "question": "Translate naturally into English: 'Mis compañeros me ven como alguien en quien pueden confiar.'",
+    "answer": "My colleagues see me as someone they can trust.",
+    "timestamp": "2026-09-12",
+    "description": "'See someone as...' is a natural way to describe how other people perceive a person.",
+    "category": "VOCABULARY"
   }
 ]
