@@ -73,7 +73,7 @@ function App() {
             {categories.map(item => <option key={item} value={item}>{item}</option>)}
           </select>
         </label>
-        {currentQuestion && <div className="metadata">Added: {currentQuestion.timestamp} · {currentQuestion.category}</div>}
+        {currentQuestion && <div className="metadata">{currentQuestion.timestamp} · {currentQuestion.category}</div>}
         {!showAnswer && currentQuestion && <button className="question" onClick={advance}><span>{currentQuestion.question}</span><small>Click to reveal the answer</small></button>}
         {showAnswer && currentQuestion ? <div className="response"><div className="answer-label">Answer</div><div className="answer-text">{currentQuestion.answer}</div><p className="description">{currentQuestion.description}</p></div> : <div />}
         {showAnswer && currentQuestion && <div className="buttons">
