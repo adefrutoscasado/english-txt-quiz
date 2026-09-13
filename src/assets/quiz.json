@@ -40,5 +40,131 @@
     "timestamp": "2026-09-13",
     "description": "Use 'since' with a starting point in time. Use 'for' with a duration, such as 'for three years'.",
     "category": "GRAMMAR"
+  },
+  {
+    "question": "Complete the sentence: 'We are used to ___ from home.'",
+    "answer": "We are used to working from home.",
+    "timestamp": "2026-09-10",
+    "description": "Use 'be used to + -ing' to talk about something you are accustomed to.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Complete the sentence: 'There are several jobs that I want to apply ___.'",
+    "answer": "There are several jobs that I want to apply for.",
+    "timestamp": "2026-09-10",
+    "description": "Use 'apply for' when talking about a job, position, grant, or similar opportunity.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Choose the correct preposition: 'The ambulance is arriving ___ an intersection.'",
+    "answer": "The ambulance is arriving at an intersection.",
+    "timestamp": "2026-09-10",
+    "description": "Use 'arrive at' for specific places such as an intersection, station, or building.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "What is the most natural way to say 'He estado durmiendo unas cinco horas por noche'?",
+    "answer": "I've been sleeping about five hours a night.",
+    "timestamp": "2026-09-10",
+    "description": "For regular rates of time, 'a night' sounds more natural in conversation than 'per night'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "How do you say 'matrícula' when talking about a vehicle?",
+    "answer": "License plate.",
+    "timestamp": "2026-09-10",
+    "description": "A license plate is the plate on a vehicle that displays its registration number.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "How do you say 'aspersor' in English?",
+    "answer": "Sprinkler.",
+    "timestamp": "2026-09-10",
+    "description": "A sprinkler sprays water, for example to water grass or plants.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Complete the sentence naturally: 'I need a side ___ the tofu.'",
+    "answer": "I need a side to go with the tofu.",
+    "timestamp": "2026-09-10",
+    "description": "Use 'to go with' when saying that one food accompanies another.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Choose the correct phrase: 'The system recorded the ___ of people on the beach.'",
+    "answer": "The system recorded the number of people on the beach.",
+    "timestamp": "2026-09-10",
+    "description": "Use 'number of' with countable nouns such as people or cars. Use 'amount of' with uncountable nouns such as water.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Correct the sentence: 'The traffic lights give the priority to the ambulance.'",
+    "answer": "The traffic lights give priority to the ambulance.",
+    "timestamp": "2026-09-10",
+    "description": "The natural expression is 'give priority to' without 'the' before 'priority'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "How do you say 'está muy bien pensado' in English?",
+    "answer": "It's very well thought out.",
+    "timestamp": "2026-09-10",
+    "description": "'Well thought out' means carefully planned or considered.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Rewrite naturally: 'We can make the sprinklers to be deactivated.'",
+    "answer": "We can deactivate the sprinklers.",
+    "timestamp": "2026-09-10",
+    "description": "Use the direct verb 'deactivate'. Another correct option is: 'The sprinklers can be deactivated.'",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "What does 'intersection' mean?",
+    "answer": "A place where two or more roads cross or meet.",
+    "timestamp": "2026-09-10",
+    "description": "Example: 'The ambulance is approaching an intersection.'",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "What does 'motif' mean in music?",
+    "answer": "A short musical idea or phrase that can be repeated or developed.",
+    "timestamp": "2026-09-10",
+    "description": "A motif can be just a few notes and can become the basis for a larger piece.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "How do you say 'bombero' in English?",
+    "answer": "Firefighter.",
+    "timestamp": "2026-09-10",
+    "description": "A firefighter is a person whose job is to put out fires and respond to emergencies.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "How do you say 'humilde' when describing a person's attitude?",
+    "answer": "Humble.",
+    "timestamp": "2026-09-10",
+    "description": "A humble person does not act as if they are more important than other people.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Which pronunciation is correct for 'continue'?",
+    "answer": "Stress the second syllable: con-TIN-you.",
+    "timestamp": "2026-09-10",
+    "description": "The ending sounds like 'you', and the main stress falls on the second syllable.",
+    "category": "PRONUNCIATION"
+  },
+  {
+    "question": "What part of the word 'sprinklers' was difficult to pronounce?",
+    "answer": "The consonant cluster around -nkl-.",
+    "timestamp": "2026-09-10",
+    "description": "Practising 'sprinkle' first and then adding the final -rs can make 'sprinklers' easier to pronounce.",
+    "category": "PRONUNCIATION"
+  },
+  {
+    "question": "Complete the technical sentence: 'The system recorded the license plates of heavy trucks ___ certain roads.'",
+    "answer": "The system recorded the license plates of heavy trucks passing through certain roads.",
+    "timestamp": "2026-09-10",
+    "description": "'Pass through' is natural when describing vehicles moving through a road, checkpoint, or monitored area.",
+    "category": "VOCABULARY"
   }
 ]
