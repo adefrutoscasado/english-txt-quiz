@@ -1,4 +1,4 @@
-import React, {useState, useMemo, useEffect} from 'react'
+import React, {useState, useEffect} from 'react'
 import './App.css'
 import quiz from './assets/quiz.json'
 import {reset, insertKnownQuestion, isAlreadyKnown, alreadyKnownLength} from './services/storage'
@@ -17,7 +17,7 @@ function App() {
 
   useEffect(() => {
     if (currentQuestion && isAlreadyKnown(currentQuestion.question)) skipQuestion()
-  }, [position])
+  }, [currentQuestion])
 
   const advance = () => setShowAnswer(true)
 
