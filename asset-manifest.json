@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/english-txt-quiz/static/css/main.97ac3cf3.chunk.css",
+    "main.js": "/english-txt-quiz/static/js/main.d1bf5aa0.chunk.js",
+    "main.js.map": "/english-txt-quiz/static/js/main.d1bf5aa0.chunk.js.map",
+    "runtime-main.js": "/english-txt-quiz/static/js/runtime-main.38df66be.js",
+    "runtime-main.js.map": "/english-txt-quiz/static/js/runtime-main.38df66be.js.map",
+    "static/js/2.9af0ba31.chunk.js": "/english-txt-quiz/static/js/2.9af0ba31.chunk.js",
+    "static/js/2.9af0ba31.chunk.js.map": "/english-txt-quiz/static/js/2.9af0ba31.chunk.js.map",
+    "index.html": "/english-txt-quiz/index.html",
+    "precache-manifest.42eba3c50de4a208020bc39cd5568912.js": "/english-txt-quiz/precache-manifest.42eba3c50de4a208020bc39cd5568912.js",
+    "service-worker.js": "/english-txt-quiz/service-worker.js",
+    "static/css/main.97ac3cf3.chunk.css.map": "/english-txt-quiz/static/css/main.97ac3cf3.chunk.css.map",
+    "static/js/2.9af0ba31.chunk.js.LICENSE.txt": "/english-txt-quiz/static/js/2.9af0ba31.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.38df66be.js",
+    "static/js/2.9af0ba31.chunk.js",
+    "static/css/main.97ac3cf3.chunk.css",
+    "static/js/main.d1bf5aa0.chunk.js"
+  ]
+}
