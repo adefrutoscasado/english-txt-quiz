@@ -56,9 +56,15 @@ function App() {
     <div className="App">
       <div className="Content">
         <div className="header">
-          <div>Score: {successNumber}/{successNumber + errorNumber}</div>
-          <button onClick={() => reset()}>Reset history</button>
-          <div>Not yet known: {failLength}/{questionAmount}</div>
+          <div className="stat">
+            <span>Score</span>
+            <strong>{successNumber}/{successNumber + errorNumber}</strong>
+          </div>
+          <button className="reset-button" onClick={() => reset()}>Reset progress</button>
+          <div className="stat">
+            <span>To review</span>
+            <strong>{failLength}/{questionAmount}</strong>
+          </div>
         </div>
         <label className="category-filter" htmlFor="category">
           Category
@@ -68,11 +74,11 @@ function App() {
           </select>
         </label>
         {currentQuestion && <div className="metadata">Added: {currentQuestion.timestamp} · {currentQuestion.category}</div>}
-        {!showAnswer && currentQuestion && <div className="question" onClick={advance}>{currentQuestion.question}</div>}
-        {showAnswer && currentQuestion ? <div className="response"><div>{currentQuestion.answer}</div><p className="description">{currentQuestion.description}</p></div> : <div />}
+        {!showAnswer && currentQuestion && <button className="question" onClick={advance}><span>{currentQuestion.question}</span><small>Click to reveal the answer</small></button>}
+        {showAnswer && currentQuestion ? <div className="response"><div className="answer-label">Answer</div><div className="answer-text">{currentQuestion.answer}</div><p className="description">{currentQuestion.description}</p></div> : <div />}
         {showAnswer && currentQuestion && <div className="buttons">
-          <button className="answer" onClick={() => registerSuccess(currentQuestion.question)}>✅ I knew it</button>
-          <button className="answer" onClick={() => registerError(currentQuestion.question)}>❌ Still learning</button>
+          <button className="answer" onClick={() => registerSuccess(currentQuestion.question)}>I knew it</button>
+          <button className="answer" onClick={() => registerError(currentQuestion.question)}>Still learning</button>
         </div>}
         {!currentQuestion && <div className="completion">You have completed this category.</div>}
       </div>
