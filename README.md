@@ -25,6 +25,16 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
+### `npm run deploy`
+
+Builds the application and publishes it to GitHub Pages. Use Node.js 16.20.2:
+
+```bash
+npm run deploy
+```
+
+The deployed site will be available at [https://adefrutoscasado.github.io/english-txt-quiz/](https://adefrutoscasado.github.io/english-txt-quiz/).
+
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
