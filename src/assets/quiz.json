@@ -1,0 +1,1538 @@
+[
+  {
+    "question": "En que parte de AWS podemos encontrar los identity providers",
+    "answer": "IAM"
+  },
+  {
+    "question": "What services are global in AWS?",
+    "answer": "IAM, S3, Route 53"
+  },
+  {
+    "question": "Que tres tripos existen en IAM?",
+    "answer": "Users, Groups y Roles."
+  },
+  {
+    "question": "Como se llama el servicio que nos permite usar emails de terceros para utilizarlos como usuario IAM?",
+    "answer": "IAM Ferederation"
+  },
+  {
+    "question": "En que OS no podemos utilizar SSH?",
+    "answer": "Windows < 10"
+  },
+  {
+    "question": "Que protocolo es SSH?",
+    "answer": "TCP"
+  },
+  {
+    "question": "Que protocolo utiliza HTTP?",
+    "answer": "TCP"
+  },
+  {
+    "question": "Que puerto usa SSH?",
+    "answer": "22"
+  },
+  {
+    "question": "Que puerto utiliza HTTP?",
+    "answer": "80"
+  },
+  {
+    "question": "Que puerto utiliza HTTPS?",
+    "answer": "443"
+  },
+  {
+    "question": "En que parte del dashboard de amazon podemos encontrar los SG?",
+    "answer": "EC2"
+  },
+  {
+    "question": "We have timeout issues trying to conect a EC2, what could be the cause?",
+    "answer": "SG issues"
+  },
+  {
+    "question": "A que puede hacer referencia un SG?",
+    "answer": "Ips, CIDR, another SG. (No instances!)"
+  },
+  {
+    "question": "Para que sirve ROA?",
+    "answer": "Si se siera el caso de que tenemos una IP fija publica en nuestro on-premises y queremos migrarla a AWS, necesitamos hacer una peticion a ROA (Route Origin Authotization)"
+  },
+  {
+    "question": "Que le ocurre a la IP publica de nuestra maquina EC2 cada vez que la reiniciamos?",
+    "answer": "Cambia, es dinámica."
+  },
+  {
+    "question": "Cuantas Elastic IP podemos tener como maximo (por defecto)?",
+    "answer": "5"
+  },
+  {
+    "question": "Que es EC2 User data?",
+    "answer": "Un script bash que se ejecuta con cada reboot. Es bueno para la parte dinámica que pueda existir en alguna instalación (esta parte no la puede hacer AMI ya que es estatico)"
+  },
+  {
+    "question": "EC2 on demand, para que es bueno?",
+    "answer": "Alto coste. Sin permanencia. Para cargas de un tiempo que no sepamos a priori y con una carga media pero constante."
+  },
+  {
+    "question": "EC2 reserved, para que es bueno?",
+    "answer": "Bajo coste pero con larga permanencia. Es bueno para BBDD por ej. Puede ser normal, scheduled (como la que utilizabamos en persei) o convertible (para cambiar el tipo)"
+  },
+  {
+    "question": "EC2 Spot instance, para que es bueno?",
+    "answer": "Puede definir un coste maximo y la instancia correra hasta ese precio maximo. Spot block: Te dejan una instancia por un tiempo limitado. Bueno para analisis que no importa cuando hacerlo."
+  },
+  {
+    "question": "EC2 Dedicated hosts, para que es bueno?",
+    "answer": "Physical dedicated server. Full control over underlying sockets/cores. Useful for BYOL (Bring your own license)"
+  },
+  {
+    "question": "EC2 types: R, C, M, I, G, T2/T3. Que es cada una?",
+    "answer": "(by order) RAM, CPU, Medium (medium ram, medium cpu), I/O y T2-T3 son burstable instances. En estas el rendimiento se basa en burst credits (buenas para unexpected load)"
+  },
+  {
+    "question": "Tengo una instancia EC2 T2/T3 basada en burst credits, pero continuamente estoy perdiendo los creditos. Que puedo hacer?",
+    "answer": "Contratar una maquina mas potente, T2T3 no es para tu caso."
+  },
+  {
+    "question": "Para que es bueno AMI?",
+    "answer": "Para archivos etaticos de una instalacion. Permite usar una already-provisioned instance."
+  },
+  {
+    "question": "Que scope tiene una AMI para poder compartirla?",
+    "answer": "por region"
+  },
+  {
+    "question": "EC2 Placemente Group Cluster, para que sirve?",
+    "answer": "Buena red ya que todas estan conectadas. Pero si una falla, todas fallan. Buena para big data"
+  },
+  {
+    "question": "EC2 Placemente Group Spread, para que sirve?",
+    "answer": "High availability. Limited to 7. Apps that need isolation for each service."
+  },
+  {
+    "question": "Ec2 Placemente Group partition, para que sirve?",
+    "answer": "Mix de Cluster y de Spread. Un termino medio entre ambos."
+  },
+  {
+    "question": "Que es un ENI?",
+    "answer": "Una tarjeta de red virtual. LA podemos enganchar a la maquina que queramos on-the-fly."
+  },
+  {
+    "question": "En un load balancer que hacemos si alguna maquina EC2 nos reporta fallos en los Health Check:",
+    "answer": "Dejamos de mandar peticiones. No la terminamos ni la reiniciamos."
+  },
+  {
+    "question": "Que load balancer soporta enrutamiento por path?",
+    "answer": "Application Load balancer. Puede ser en funcion de hostname, path y query string. Es el unico!"
+  },
+  {
+    "question": "Como podemos dirigir las peticiones a las maquinas en funcion del path de la ruta?",
+    "answer": "Usando ALB (Puede ser en funcion de hostname, path y query string). Es el unico!. Route 53 NO"
+  },
+  {
+    "question": "Qué load balancer tiene una IP estatica por AZ?",
+    "answer": "Network load balancer"
+  },
+  {
+    "question": "En que cabecera pueden ver las aplicaciones la IP original desde la cual se hace la peticion?",
+    "answer": "X-Forwarded-For"
+  },
+  {
+    "question": "En que load balancer nos cuesta dinero rediriger a otra region?",
+    "answer": "Network load balancer"
+  },
+  {
+    "question": "Cual es el load balancer mas rapido y con menos latencia?",
+    "answer": "Network load balancer"
+  },
+  {
+    "question": "Que load balancer/s soportan SNI?",
+    "answer": "ALB y NLB."
+  },
+  {
+    "question": "Como podemos utilizar SNI en un classic load balancer que no lo soporta?",
+    "answer": "SNI combinado con Cloudfront."
+  },
+  {
+    "question": "En un EC2 auto escaling group, que criterio utilizamos para terminar ina instancia?",
+    "answer": "Elegimos la AZ con mas intancias, y luego la instancia con la oldest launch configuration. Luego se selecciona la que este mas cerca de su billing hour. Si coincide ya es random entre esas."
+  },
+  {
+    "question": "En un EC2 auto escaling group, que hacemos si los EC2 status checks nos indican que esta fallando pero la necesitamos (no ha habido eventos scale out?",
+    "answer": "La reemplazamos."
+  },
+  {
+    "question": "Si un LB indica que hay una instancia unhealthy, que hace el scaling group?",
+    "answer": "Nada, por defecto."
+  },
+  {
+    "question": "Cual es el cooldown period de EC2 auto escaling group por defecto?",
+    "answer": "300 segundos / 5 minutos"
+  },
+  {
+    "question": "Que es EBS phemeral?",
+    "answer": "Una EBS en el que los datos no perduran en los reinicios, son efimeros."
+  },
+  {
+    "question": "Diferencia entre EBS Cold HDD y EBS STI HDD?",
+    "answer": "STI HDD es para datos accedidios frecuentemente (Big data, \"necesito mucho espacio pero tambien acceder mas o menos rapido\").  Cold HDD es para infrecuentes"
+  },
+  {
+    "question": "Cual es el unico tipo de EBS en el que los IOPS aumentan con el tamaño?",
+    "answer": "GP2 (general purpose)"
+  },
+  {
+    "question": "Cual es el unico tipo de EBS en el que los IOPS aumentan con la demanda (bursts)?",
+    "answer": "GP2 (general purpose)"
+  },
+  {
+    "question": "EBS SNapshots, que pas acuando estamos haciendo uno en un EBS?",
+    "answer": "Lo podemos utilizar, unicamente bajan los IOPS."
+  },
+  {
+    "question": "Como se llama el servicio especial para hacer backups de Amazon?",
+    "answer": "Amazon Data Lifecycle Manager (DLM)"
+  },
+  {
+    "question": "EBS Raid 0, para que es?",
+    "answer": "Para cOmbinar las capacidades de escriturao y lectura de dos EBS, a costa de mas riesgo (uno falla, todos fallan)"
+  },
+  {
+    "question": "EBS Raid 1, para que es?",
+    "answer": "M1rroring a volume. Mas seguridad, mantenemos la capacidad como si fuera UNA SOLA."
+  },
+  {
+    "question": "EFS, para que sirve?",
+    "answer": "File system that can be mounted across multiple instances, multi AZ."
+  },
+  {
+    "question": "Tenemos una RDS Multi AZ, que ocurre si una AZ falla?",
+    "answer": "Su CNAME se cambia a la que está en stanby"
+  },
+  {
+    "question": "En una RDS, como son las escrituras con read replicas ASYNC o SYNC?",
+    "answer": "ASYNC, toma tiempo para propagarse. (Eventually consistent)"
+  },
+  {
+    "question": "En RDS, cuantas read replicas podemos tener maximo?",
+    "answer": "5"
+  },
+  {
+    "question": "Para que RDS podemos utilizar IAM (RDS Auth Service) para loguearnos de manera nativa usando un token?",
+    "answer": "MySQL y PostgreSQL (Oracle no)"
+  },
+  {
+    "question": "Como creamos un token temporal de acceso a RDS?",
+    "answer": "Con RDS Auth Service (IAM authentication), no STS"
+  },
+  {
+    "question": "Unica tecnologia AWS de base de datos que soporta multi region?",
+    "answer": "Aurora"
+  },
+  {
+    "question": "Para que es bueno Aurora en general?",
+    "answer": "Autoescaling based on use, Unpredistable wordload"
+  },
+  {
+    "question": "Que es Aurora Serverless y que diferencia hay con Aurora normal?",
+    "answer": "Automaticamente inicia, apaga o escala la capacidad basada en las necesidades. Buenas para spikes de uso."
+  },
+  {
+    "question": "Podemos usar IAM EN Elasticache (Redis, Memcached)?",
+    "answer": "No, usamos un token (RedisAuth para redis). NO tiene integracion IAM como RDS."
+  },
+  {
+    "question": "Podemos hacer backups de Elasticache?",
+    "answer": "Solo de Redis."
+  },
+  {
+    "question": "En Route 53 que es redireccion hace un Record A?",
+    "answer": "URL to IPv4"
+  },
+  {
+    "question": "En Route 53 que es redireccion hace un Record AAAA?",
+    "answer": "URL to IPv6"
+  },
+  {
+    "question": "En Route 53 que es redireccion hace un Record CNAME?",
+    "answer": "URL to URL"
+  },
+  {
+    "question": "En Route 53 que es redireccion hace un Record Alias?",
+    "answer": "URL to AWS Recource"
+  },
+  {
+    "question": "En que consiste Route 53 simple routing policy?",
+    "answer": "El cliente recibe varias direcciones IP para un dominio y la direccion se elige aleatoriamente por el cliente, puede utilizarse para balancear."
+  },
+  {
+    "question": "Tengo una nueva version de la app con mejoras significantes y quiero dirigir un 5% de los clientes a la nueva version, como puedo hacerlo?",
+    "answer": "Usando Route 53 weighted routing"
+  },
+  {
+    "question": "No puedo dar servicio en un pais debido al ambito legal de mismo. Como puedo negar el acceso a mi servicio?",
+    "answer": "Usando Route 53 geolocation routing policy"
+  },
+  {
+    "question": "Route 53 Multi Value routing policy, en que consiste?",
+    "answer": "Es como el simple routing pero añadiendo un health check o condicion a cada ruta para que se incluta en la respuesta del DNS. IP A (Si condicion A), IP B (Si condicion B)"
+  },
+  {
+    "question": "En un entorno MultiAZ, que ocurre si la AZ donde se encuentra la instancia princpial empieza a tener problemas?",
+    "answer": "El CNAME se cambia a la instancia en standby."
+  },
+  {
+    "question": "Que requisitos debemos cumplir en Route 53 para poder redireccionar una ruta a un sitio estatico e S3?",
+    "answer": "El nombre del bucket y la ruta deben ser similares."
+  },
+  {
+    "question": "Tiene coste mover archivos desde un EC2 a S3?",
+    "answer": "No, es gratis"
+  },
+  {
+    "question": "Si queremos usar un algoritmo propio de encriptacion en S3, que tipo debemos usar?",
+    "answer": "Client side encryption?"
+  },
+  {
+    "question": "Que tipo de encriptacion S3 necesita estrictamente HTTPS?",
+    "answer": "SEE-C, ya que la clave de encriptacion viaja en las cabeceras de la peticion."
+  },
+  {
+    "question": "En la encriptacion por defecto server-side de S3 (SSE-S3). que tipo se utiliza?",
+    "answer": "AES256"
+  },
+  {
+    "question": "Que es S3 Amazon Macie?",
+    "answer": "ML-powered security service que nos ayuda a prevenir la perdida de datos mediante la deteccion automatica de informacion sensible en S3. Nos permite visualizar como estan siendo esos datos sensibles."
+  },
+  {
+    "question": "Que tipo de bucket utilizamos para pequeños archivos pero infrecuentes accesos?",
+    "answer": "S3 Standard IA"
+  },
+  {
+    "question": "Que tipo de bucket utilizamos para datos redundantes y reproducibles?",
+    "answer": "S3 One Zone IA"
+  },
+  {
+    "question": "Que tipo de bucket utilizamos para archivar datos?",
+    "answer": "S3 Glazier"
+  },
+  {
+    "question": "Que tipo de servicio para S3 utilizamos para tareas de warehouse?",
+    "answer": "Redshift"
+  },
+  {
+    "question": "Que es un S3 lifecycle ruke?",
+    "answer": "Define una accion (pasar a glacier en 30 dias por ej.). O una expiration action (eliminarse tras 30 dias en glacier sin acceso ninguno)."
+  },
+  {
+    "question": "Alguien esta cambiando la configuracion de buckets S3, donde podemos comprobar los logs?",
+    "answer": "Los S3 access logs no contienen esta info. Debemos usar S3 CloudTrail."
+  },
+  {
+    "question": "Que nos permite Athena?",
+    "answer": "Servicio serverless que permite usar lenguage SQL para S3. Para realizar analitica. Se paga por query."
+  },
+  {
+    "question": "Como configuramos los permisos en Cloudfront para S3 de forma que solo sea accesibles a través de CloudFront?",
+    "answer": "Mediante OAI (Origin Access Identity) y actualizando los Bucket policies de S3."
+  },
+  {
+    "question": "Como permitimos el acceso desde un Cloudfront Edge a una maquina EC2?",
+    "answer": "Aceptando la IP pulica del edge location."
+  },
+  {
+    "question": "AWS Storage Extra, necesitamos mover 250 TB, que utilizariamos?",
+    "answer": "Varios Snowball, ya que Snowmobile es para 10^5 Tb (100Pb)."
+  },
+  {
+    "question": "AWS Storage Extra, que capacidad tiene Snowball?",
+    "answer": "72 Tb"
+  },
+  {
+    "question": "AWS Storage Extra, que capacidad tiene Snowball Edge?",
+    "answer": "80 Tb"
+  },
+  {
+    "question": "AWS Storage Extra, que capacidad tiene Snowmobile?",
+    "answer": ">100Pb"
+  },
+  {
+    "question": "Nuestro on-premises utiliza el protocolo SMB (server Message Block) para almacenamiento. Que servicio podemos usar para crear un almacenamiento hibrido en la nube?",
+    "answer": "AWS Storage gateway: File gateway"
+  },
+  {
+    "question": "Nuestro on-premises utiliza el protocolo NFS para almacenamiento. Que servicio podemos usar para crear un almacenamiento hibrido en la nube?",
+    "answer": "AWS Storage gateway: File gateway"
+  },
+  {
+    "question": "Nuestro on-premises utiliza el protocolo iSCSI para almacenamiento. Que servicio podemos usar para crear un almacenamiento hibrido en la nube?",
+    "answer": "AWS Storage gateway: Volume gateway"
+  },
+  {
+    "question": "iSCSI, NFS, SMB. A que Storage gateway pertenece cada tipo de dispositivo?",
+    "answer": "iSCSI: Volume Gateway. NFS y SMB: File Gateway"
+  },
+  {
+    "question": "SQS: Cual es el numero maximo de mensajes en la cola y el tamaño maximo del mismo?",
+    "answer": "120K por cola. 256 Kb/mensaje."
+  },
+  {
+    "question": "Cual es la retencion por defecto en SQS?",
+    "answer": "4 dias. Maximo 14."
+  },
+  {
+    "question": "Se ha procesado en mensaje SQS dos veces, cual puede ser el problema?",
+    "answer": "El visibility timeout es demasiado bajo."
+  },
+  {
+    "question": "Que es el dead letter queue (DLQ) de SQS?",
+    "answer": "Donde se almacenan los mensajes que han sido reasignados a la cola demasiadas veces y no han superado el redrive policy. Por lo que se descartan."
+  },
+  {
+    "question": "Que valor puede tener el long polling de SQS?",
+    "answer": "Entre 1 y 20 segundos."
+  },
+  {
+    "question": "Ventaja y desventaja de SQS FIFO?",
+    "answer": "Ventaja: mensajes en orden. Desventaja: perdida de rendimiento."
+  },
+  {
+    "question": "Maxima capacidad de SQS FIFO?",
+    "answer": "300 msg/sec y 3000 msg/sec without batching"
+  },
+  {
+    "question": "Como podemos garantizar el orden en Kinesis, incluso si estamos utilizando shard?",
+    "answer": "Mediante un partition key"
+  },
+  {
+    "question": "En Kinesis, tnemos un stream de clicks, pero no podemos diferencias el usuario. Como podemos diferenciarlos?",
+    "answer": "Usando un partition key."
+  },
+  {
+    "question": "Cual es la capacidad de escritrua y de lectura de un shard de Kinesis?",
+    "answer": "1 Mb y 2 Mb."
+  },
+  {
+    "question": "En que servicios podemos cargar datos usando Kinesis Data Firehouse?",
+    "answer": "Redshift, Amazon S3, ElasticSearch y Splunk."
+  },
+  {
+    "question": "Queremos acceder desde lamba a una RDS, como debemos usar los permisos?",
+    "answer": "Deberiamos asignar permisos a la IAM de Lamba en RDS."
+  },
+  {
+    "question": "Como se despliega una Lambda function en Canary?",
+    "answer": "Escalado en dos incrementos por intervalos"
+  },
+  {
+    "question": "Como se despliega una Lambda function en Linear?",
+    "answer": "Escalado de forma lineal por minutos (escalones de 1 minutos asta completar el 100%)"
+  },
+  {
+    "question": "Timeout de una funcion de duracion de ejecucion lambda? Podemos cambiarla?",
+    "answer": "15 minutos MAXIMO. No se puede aumentar."
+  },
+  {
+    "question": "Max deplotment size of lamba function?",
+    "answer": "50 Mb"
+  },
+  {
+    "question": "Que nis permite DynamoDB streams?",
+    "answer": "Contienen los cambios que se realizan en la bd, y pueden ser encadenados a funciones lambda que por ejemplo manden emails con una nueva entrada en un documento."
+  },
+  {
+    "question": "Que base de datos puede utilizarse como cache debido a su rapidez y almacenamiento key-value?",
+    "answer": "DynamoDB"
+  },
+  {
+    "question": "Que base de datos puede utilizarse como almacenamiento de sesion?",
+    "answer": "DynamoDB, usando su funcion TTL (Time to live)"
+  },
+  {
+    "question": "Dynamo On demand vs Dynamo standard (auto escaled). Que usaremos en produccion y en development?",
+    "answer": "On demand > development. Standard > Produccion"
+  },
+  {
+    "question": "Que es dynamoDB DAX:",
+    "answer": "A cache layer to improve dynamodb READ y WRITE capacity (principalmente READ)."
+  },
+  {
+    "question": "AWS Api Gateway, que podemos utilizar para evitar picos/bursts/spikes:",
+    "answer": "Throttling limits. Manda un 429 too many requests cuando un usuario sobrepasa el limite de uso. El cliente tendra que repetir la operacion."
+  },
+  {
+    "question": "Como podemos mejorar el rendimiento de AWS API Gateway cuando tenemos contenido muy estático?",
+    "answer": "Activando API Gateway caching."
+  },
+  {
+    "question": "Que es AWS SAM:",
+    "answer": "Serverless Applitacion Model. Un framework de Amazon para crear apps serverless con Lambda, DynamoDB. API Gateway y Cognito."
+  },
+  {
+    "question": "Que devuelve Cognito al autenticarse?",
+    "answer": "Un cognito ID o JWT."
+  },
+  {
+    "question": "Si Redshift y Athena nos permiten usar lenguage SQL en S3, cual es la diferencia?",
+    "answer": "Redhist no permite hacer queries en glacier u otros servicios que tenga un tiempo de espera alto."
+  },
+  {
+    "question": "Queremos hacer queries parciales sobre DynamoDB, que servicio podemos utilizar?",
+    "answer": "ElasticSearch permite queries parciales, algo que el propio Dynamo no."
+  },
+  {
+    "question": "Dentro del monitoreo de CloudWatch encontramos Detailed Y Custom, que resolucion nor permiten?",
+    "answer": "Detailed > 1 minuto (extra para metrica por defecto). Custom > 1 segundo."
+  },
+  {
+    "question": "Tenemos una maquina EC2 que se congela continuamente y no podemos acceder mediante SSH. Que podemos hacer para visualizar los logs?",
+    "answer": "Usar CloudWatch."
+  },
+  {
+    "question": "Cual es la esolucion de las alarmas de cloudwatch?",
+    "answer": "Entre 10 y 30 segundos."
+  },
+  {
+    "question": "Durante cuanto tiempo es valido el token de STS?",
+    "answer": "Hasta 1 hora"
+  },
+  {
+    "question": "Que servicios nos permiten acceder a servicios de AWS sin tener un IAM explicito asignado?",
+    "answer": "STS y Cognito (aunque se principal funcion es autenticar al usuario, no proveer al usuario de acceso a los recursos de AWS)."
+  },
+  {
+    "question": "Necesitamos un identity Fereation pero nuestro sistema no es compatible con SAML2, que podemos utilizar?",
+    "answer": "Custom Identity Broker Application"
+  },
+  {
+    "question": "Queremos montar un Identity Federation con los usuarios de windows y basado en web, que podemos utilizar?",
+    "answer": "ADFS (Active directory FS)"
+  },
+  {
+    "question": "Queremos montar un Identity Federation con las cuentas de Google, que podemos utilizar?",
+    "answer": "SAML 2.0 is primarily used to let users sign in via a well-known external identity provider (IdP), such as Login with Amazon, Facebook, Google. It does not utilize Active Directory."
+  },
+  {
+    "question": "De manera general, cual es la forma de evitar un ataque MITM (Man in the middle)?",
+    "answer": "Utilizando HTTPS."
+  },
+  {
+    "question": "QUé tres tipos de claves (CMK - Customer Master Key) podemos manejar en KMS?",
+    "answer": "Default (CMK) creadas y manejadas por amazon. Custom keys creadas en KMS. Custom keys creadas por el cliente."
+  },
+  {
+    "question": "Cuando debemos usar Envelope Encryption vs Default KMS Encruption:",
+    "answer": "Cuando los datos sean mayor de 4 Kb"
+  },
+  {
+    "question": "Podemos encriptar parametros en AWS Parameter Store?",
+    "answer": "Si, en integracion con KMS. Estos se desencriptaran en tiempo de ejecucion."
+  },
+  {
+    "question": "Qué dos ventajas princpiales tiene AWS Secret Manager?",
+    "answer": "Rotación de valor del parámetro e integracion con RDS."
+  },
+  {
+    "question": "Qué servicio nos permite protegernos de ataques de inyeccion SQL?",
+    "answer": "AWS Web Application Firewall (WAF)"
+  },
+  {
+    "question": "Qué servicio añade proteccion Cross Site Scripting?",
+    "answer": "AWS Web Application Firewall (WAF)"
+  },
+  {
+    "question": "Qué servicio añade proteccion DDoS?",
+    "answer": "AWS Shield"
+  },
+  {
+    "question": "Qué protecciones añade AWS Shield?",
+    "answer": "Proteccion DDoS"
+  },
+  {
+    "question": "Qué protecciones añade AWS Web Application Firewall?",
+    "answer": "Cross Site Scripting, inyeccion SQL. Tambien se pueden bloquear paises o IPs concretas. Entre otras cosas."
+  },
+  {
+    "question": "La normativa HIPAA para datos de salud nos exige qué niveles de encriptacion?",
+    "answer": "server-side AES256 o Client-side con claves propias"
+  },
+  {
+    "question": "Cuando tenemos un CIDR de /32 Cuantas IP admite el rango?",
+    "answer": "Solo una"
+  },
+  {
+    "question": "Cuando tenemos un CIDR de /31 Cuantas IP admite el rango?",
+    "answer": "Solo dos. 2^(32-31) = 2"
+  },
+  {
+    "question": "Cuando tenemos un CIDR de /30 Cuantas IP admite el rango?",
+    "answer": "Solo dos. 2^(32-30) = 4"
+  },
+  {
+    "question": "Cuando tenemos un CIDR de /24 cuantos numeros se pueden cambiar?",
+    "answer": "Solo el ultimo"
+  },
+  {
+    "question": "Que requisitos hay en el rango de CIDR de dos VPC que usemos de manera simultanea?",
+    "answer": "Que no haya overlap de los rangos."
+  },
+  {
+    "question": "Del CIDR 10.0.16.0/20 esperamos 4096, pero AWS solo nos dice que tenemos 4091 IPs, por que?",
+    "answer": "AWS reserva 5 ips, cuatro primeras y ultima."
+  },
+  {
+    "question": "Que es necesario para que una EC2 tenga internet en una VPC?",
+    "answer": "Internet Gateway, Crear tura de internet en el router. (Para hacer ping necesitariamos protocolo IMCP activo en el router.)"
+  },
+  {
+    "question": "A que rutas (orden) se da mas prioiridad en un router de un VPC?",
+    "answer": "Lowest to highest."
+  },
+  {
+    "question": "No podemos acceder a un puerto de una maquina en una VPC y ya hemos incluido du IP en el router? que puede estar pasando?",
+    "answer": "El SG de la maquina debe aceptar ese acceso a ese puerto."
+  },
+  {
+    "question": "NAT instance vs NAT Gateway, que ventaja principal ofrecen Gateway?",
+    "answer": "bandwith, less admin, availability. Autoscaling form 5 Gbps to 45."
+  },
+  {
+    "question": "Como conseguimos High Availability en una NAT Gateway?",
+    "answer": "Añadiendo multiple NAT across AZ."
+  },
+  {
+    "question": "Necesita NAT Gateway SG?",
+    "answer": "No."
+  },
+  {
+    "question": "Hay un rango de IPs sospechosas que estan atacando una flota de EC2 en una VPC. Que podemos hacer para bloquearlas?",
+    "answer": "Denegar acceso en el rango Inbound"
+  },
+  {
+    "question": "Que permite inbound y outbound por defecto?",
+    "answer": "All y all. Las reglas son evaluadas siempre para el que realiza la peticion."
+  },
+  {
+    "question": "Despues de instalar una VPC Peer que debemso hacer para permitir la comunicacion?",
+    "answer": "Actualizar los routers de los VPC."
+  },
+  {
+    "question": "Que dos servicios utilizan VPC Endpoint Gateway?",
+    "answer": "S3 y DynamoDB"
+  },
+  {
+    "question": "Como es la manera correcta configurar un Bastion Host en cuanto a seguridad?",
+    "answer": "Aceptar solo puerto 22 (SSH) unicamente para tu IP en su SG. Colocarlo en la public subnet."
+  },
+  {
+    "question": "Site to Site VPN, utiliza internet publica o privada?",
+    "answer": "Publica, como alternativa tenemos Direct Connect."
+  },
+  {
+    "question": "Direct Connect, utiliza internet publica o privada?",
+    "answer": "Privada, al contrario de Site to Site VPN. Ademas tenemos mas ancho de banda y coste menor."
+  },
+  {
+    "question": "Egress Only Internet Gateway, para que sirve?",
+    "answer": "Permite manejar IPv6 en VPC. Tan pronto como una instancia es IPv6, es publica. Nos permite poder acceder a internet desde IPv6 sin hacerlas publicas estrictamente."
+  },
+  {
+    "question": "Cual es el limite maximo de subida en S3 utilizando multipart?",
+    "answer": "5TB"
+  },
+  {
+    "question": "Cual es el tamaño maximo de una peticion PUT de S3?",
+    "answer": "5GB"
+  },
+  {
+    "question": "A partir de que tamaño se recomiendo subida multipart?",
+    "answer": "100 mb"
+  },
+  {
+    "question": "Provee colas SQS FSIFO un sistema para procesar el elemento una unica vez?",
+    "answer": "Si"
+  },
+  {
+    "question": "Proveen colas SQS el orden de los mensajes?",
+    "answer": "No"
+  },
+  {
+    "question": "Tenemos una VPC con varias maquinas EC2 a las que podemos acceder por internet. Hemos añadido una que tiene el SG de las otras pero no podemos acceder. Cual puede ser el problema?",
+    "answer": "Debe tener asignada una public IP o, en su defecto, una Elastic IP"
+  },
+  {
+    "question": "Necesitamos real-time processing of streaming big data. Que podemos utilizar?",
+    "answer": "Kinesis Data Firehouse (Prepara y carga los datos de manera continua y los destina al servicio de tu eleccion) + Kinesis Data Streams (Real time processing)"
+  },
+  {
+    "question": "Cuando creamos un EBS snapshot se crea totalmente o es incremental?",
+    "answer": "Incremental"
+  },
+  {
+    "question": "Acabo de hacer PUT de un elemento S3. Inmediatamente hago GET. Que obtendgo?",
+    "answer": "El element antiguo o el elemento nuevo, pero nunca datos corruptos (PUT eventually consistent). Por ejemplo si reemplazamos un objeto de 5 GB, amazon necesita tiempo para hacer ese cambio. Si hacemos peticiones paralelas podemos tener este tipo de errores (cada uno puede recibir cosas distintas)"
+  },
+  {
+    "question": "Acabo de hacer DELETE de un elemento S3. Inmediatamente hago GET. Que obtendgo?",
+    "answer": "El element antiguo o la respuesta de que no existe, pero nunca datos corruptos (DELETE eventually consistent). Si hacemos peticiones paralelas podemos tener este tipo de errores (cada uno puede recibir cosas distintas)"
+  },
+  {
+    "question": "Estoy intentando lanzar un script en 50 maquinas EC2 en una AZ. Sin embargo, tras 20 maquinas, empieza a generar fallos. Que ocurre?",
+    "answer": "Hay un limite basado en vCPU por defecto por region. Hay que hacer una peticion a Amazon mediante un formulario para cambiarlo."
+  },
+  {
+    "question": "Cual es el tamaño maximo de un objeto S3?",
+    "answer": "5 Tb"
+  },
+  {
+    "question": "Para que sirve S3 Transfer Acceleration?",
+    "answer": "Permite transferencias rapidas, faciles y seguras en S3. Ayudandose de las AWS Edge locations de Cloudfrount (segun Stephane solo subidas)."
+  },
+  {
+    "question": "Puede haber cuantas AZ por subnet?",
+    "answer": "1 por AZ"
+  },
+  {
+    "question": "Cuando corremos una Instancia RDS en despliegie Multi-AZ, podemos usar la instancia standby operaciones read (read replica) o write?",
+    "answer": "No, la estancia standby no puede realizar ninguna accion mientras la instancia primaria este corriendo."
+  },
+  {
+    "question": "Tenemos dos read replicas en Aurora, como podemos balancear la carga entre las dos?",
+    "answer": "Usando los propies Reader Enpoint de Aurora, estos ya realizan la funcion de balanceo."
+  },
+  {
+    "question": "Que nos permite S3 Expedited Retrieval y en qué tipo de Bucket está disponible?",
+    "answer": "Nos permite recuperar archivos de manera urgente en S3, evitando largas esperas en Glacier (NO DISPONIBLE EN DEEP GLACIER ARCHIVE!)."
+  },
+  {
+    "question": "En que Load Balancer viene activado Cross-Zone Load Balancer por defecto?",
+    "answer": "ALB. En CLB y NLB hay que activarlo."
+  },
+  {
+    "question": "Que es Active-Active failover en Route 53?",
+    "answer": "Siempre se incluyen todos los servicios para que se usen, tanto los primeras como los secundarios. Si uno falla, simplemente se \"elimina\" de la lista de servicio disponibles y se deja de mandar peticiones."
+  },
+  {
+    "question": "Que es Active-Pasive failover en Route 53?",
+    "answer": "Se empiezan a redirigir a los servicios secundarios (que se encuentran en standby) unicamente cuando el primera falla."
+  },
+  {
+    "question": "Para que sirve CreationPolicy en CloudFormation?",
+    "answer": "Es un evento invocado cuando la creacion de un recurso esta listo. Para resolver problemas de asincronia"
+  },
+  {
+    "question": "Que es AWS AppSync?",
+    "answer": "Una especie de Firebase de Amazon. Usa GraphQL, real time subscriptions, Dynamo/lambda intregrations..."
+  },
+  {
+    "question": "Diferencia entre Cost Explorer y AWS Budget?",
+    "answer": "Cost explorer te permite visualizar como gastas el dinero en Amazon. AWS Budget te permite establecer presupuestos y controlarlo (alertas email incluidas)."
+  },
+  {
+    "question": "Cuando las ENI se desconectan de una EC2, estas se detienen?",
+    "answer": "No"
+  },
+  {
+    "question": "EC2 Reserved Instances, como varia el precio cuando una instancia esta corriendo, parando o terminada?",
+    "answer": "No varia, siempre ese el mismo."
+  },
+  {
+    "question": "EC2 Reserved Instances, no necesitamos mas su uso y hemos pagado ya un año, que podemos hacer?",
+    "answer": "Venderla en AWS Rserved Instance Marketplace. Además, debemos terminarla cuanto antes para que no se nos hagan cargos en regimen On-Demand cuando el plazo acabe."
+  },
+  {
+    "question": "Diferencia entre \"Data Protection\" y \"Data Protection at rest\"?",
+    "answer": "\"Data Protection\" se refiere a proteger los datos in transito (mientras vuela a Amazon) y \"Data Protection at rest\" se refiere a mientras esta almacenado."
+  },
+  {
+    "question": "Diferencia entre las acciones de S3 \"s3:ObjectRemoved:DeleteMarkerCreated\" y \"s3:ObjectRemoved:Delete\"?",
+    "answer": "El primero es la marca de que un archivo esta eliminado (cuando se usa versionado) y el segundo es cuando un objeto se elimina permanentemente."
+  },
+  {
+    "question": "Qué determina el coste de uso de Cloud Formation?",
+    "answer": "Las plantillas de Cloud Formation son gratis, unicamente tienen coste los recursos que utilizan."
+  },
+  {
+    "question": "Cual es la mayor ventaja de usar una VPN en AWS?",
+    "answer": "Te permite conectar tu nube AWS a tu on-premises usando sesiones privadas con IP Secutiry (IPSec) y tuneles TLS."
+  },
+  {
+    "question": "Que permiso necesitamos para copiar objetos S3 de un bucket a otro de otra cuenta?",
+    "answer": "Cross-account permissions para S3 en IAM."
+  },
+  {
+    "question": "Que nos permite AWS Beanstalk?",
+    "answer": "Desplegar y gestionar aplicaciones de manera sencilla y rapida. Simplemente subes tu app y el se encarga de load balancing, provisioning y application health monitoring. Parecido a Heroku diria"
+  },
+  {
+    "question": "Que es Glacier Vault Lock?",
+    "answer": "Te permite forzar el cumplimiento de ciertos ciclos en S3 Glacier. Por ejemplo, no eliminar los archivos al menos durante 1 año (para cumplir con ciertas normativas)"
+  },
+  {
+    "question": "Como salvaguardar disaster recovery en Redshift?",
+    "answer": "Cross-Region Snapshots en el Cluster de Redshift"
+  },
+  {
+    "question": "Tenemos un gran set de archivos CSV en S3, como podemos aplicar SQL queries para obtener estadisticos de los datos?",
+    "answer": "Athena puede hacer queries directamente sobre el contenido, ya sea estrcturado, semi-estrcturado o desestructurado. Algunos ejemplos son CSV, JSON,..."
+  },
+  {
+    "question": "Tenemos un servicio de pedidos online y de ninguna forma podemos tolerar cobros repetidos en nuestro sistema de colas SQS, que podemos utilizar?",
+    "answer": "SQS FIFO provee de Exactly One processing (vs \"al menos uno\" de SQS estandar), First in first out delivery y high throughput (vs el ilimitado de SQS estandar)"
+  },
+  {
+    "question": "Para que sirve AWS Transit Gateway?",
+    "answer": "AWS Transit Gateway permite conectar muchas on-premises, VPNs, y VPCs soportando inter-region (colocadas en cada region) para que enrute todo el trafico a traves de un unico centro de transito."
+  },
+  {
+    "question": "Cual es el protocolo de FTP?",
+    "answer": "TCP"
+  },
+  {
+    "question": "Cual es el puerto de FTP?",
+    "answer": "20 y 21"
+  },
+  {
+    "question": "Que usa CloudTrail para almacenar los logs?",
+    "answer": "S3"
+  },
+  {
+    "question": "Donde podemos encontrar los Flow Logs?",
+    "answer": "Son los logs de VPC"
+  },
+  {
+    "question": "Para que sirve Connection Draining?",
+    "answer": "Permite que el load balancer vaya poco a poco quitando las conexiones a una maquina para que esta pueda terminar las peticiones que esta procesando en un evento de scale in."
+  },
+  {
+    "question": "Como podemos hacer que un bucket S3 tenga acceso publico para server archivos estaticos?",
+    "answer": "Podemos setear los permisos como publicos durante el upload del atchivo. O Simplemente configurando sus policies para setear todos los objetos como publicos."
+  },
+  {
+    "question": "Como podemos asegurar la integridad de los datos de un bucket S3 en un desastre?",
+    "answer": "Activando cross-region Replication"
+  },
+  {
+    "question": "Para que sirve AWS X-Ray?",
+    "answer": "Para trazar, debuguear y analizar las peticiones que viajan a desde API Gateway (o microservicios) hasta los servicios que llama, de forma que podamos detectar fallos de rendimiento."
+  },
+  {
+    "question": "Protocolo de ping?",
+    "answer": "IMCP"
+  },
+  {
+    "question": "Que es Redshift Spectrum?",
+    "answer": "Nos permite hacer queries directamente sobre S3, pero a diferencia de Kinesis que es serverless, necesitamos una instancia/cluster"
+  },
+  {
+    "question": "Que servicio de Amazon nos permite Massively Parallel Query Execution para hacer analiticas?",
+    "answer": "Redshift. Con esta y otras características nos ofrece una rendimiento de hasta 10x para tareas de analítica respecto a otras soluciones."
+  },
+  {
+    "question": "Cual es el servicio principal de AWS que se nos viene a la mente cuando hablamos de \"real time\" big data?",
+    "answer": "AWS Kinesis"
+  },
+  {
+    "question": "Que nos permite los servicios de Kinesis: Stream / Analytics / Firehouse?",
+    "answer": "Streams: Ingesta de streaming de latencia baja a gran escala (big data). Analytics: Aplicar queries SQL en tiempo real. Firehose: Cargar los streams en S3, Redshift, ElasticSearch..."
+  },
+  {
+    "question": "Cuanto tiempo se retiene los datos de un shard de Kinesis?",
+    "answer": "Por defecto 1 dia. Puede ser hasta 7 dias."
+  },
+  {
+    "question": "Podemos reproducir datos en SQS, SNS o Kinesis?",
+    "answer": "Solo en Kinesis."
+  },
+  {
+    "question": "Cuando usamos Decoupling, que dos servicios estan preparados para aceptar multiples consumidores de los datos?",
+    "answer": "SNS y Kinesis"
+  },
+  {
+    "question": "Podemos eliminar datos en Kinesis?",
+    "answer": "No, los datos son inmutables"
+  },
+  {
+    "question": "Podemos cambiar el numero de Shards y escalarlo?",
+    "answer": "Sí (se llama reshard). \"MergeShare\" para disminuir numero. \"UpdateShardCount\" para aumentarlo."
+  },
+  {
+    "question": "Como se determina a qué shard se envía un dato en Kinesis?",
+    "answer": "Mediante su clave de mensaje (message key), una cabecera que contiene el id hasheado. Si todos apuntan al mismo se producirá hot partition."
+  },
+  {
+    "question": "Qué es hot partition en Kinesis?",
+    "answer": "Todos los mensajes con datos tienen una cabecera que contiene el id hasheado. Si todos apuntan al mismo se producirá hot partition. Tenemos que distribuirlos por nuestros shards (Carreteras de datos)"
+  },
+  {
+    "question": "Qué significa el mensaje ProvisionedThroughputExceeded en Kinesis?",
+    "answer": "Nos hemos pasado del limite que admite el shard de Kinesis. No podemos pasarle tantos datos."
+  },
+  {
+    "question": "S3 IA, que significan las siglas?",
+    "answer": "Infrequent Access."
+  },
+  {
+    "question": "Qué significa on-premises?",
+    "answer": "Algo que corre en la oficina del usuario, no en el cloud."
+  },
+  {
+    "question": "AWS Fargate, que nos permite?",
+    "answer": "Construir una imagen del contenedor definiendo su memoria, recursos... Para despues correrlas pagando unicamente por lor recursos que estan consumen y olvidandonos de toda la gestion del contenedor (definir EC2, provisionar, ejecutar...)"
+  },
+  {
+    "question": "Que es AWS SES?",
+    "answer": "Simple Email Service. Mas caro que SNS. Si quieres hacer monitoreo de instancias, hay que usar SNS."
+  },
+  {
+    "question": "Que nos permite AWS OpsWorks?",
+    "answer": "Herramientas DevOps para gestionar tareas repetitivas en servidores. Chef y Puppet son soluciones open source que ofrece."
+  },
+  {
+    "question": "Que es AWS WorkSpaces?",
+    "answer": "Escritorios remotos seguros. Integrados con Microsoft AD."
+  },
+  {
+    "question": "En Route 53, que es MX Record?",
+    "answer": "Mail eXchange Record"
+  },
+  {
+    "question": "AWS DLM que es?",
+    "answer": "Data Lifecycle Manager"
+  },
+  {
+    "question": "AWS CM que es?",
+    "answer": "Certificate Manager"
+  },
+  {
+    "question": "Que es una EBS-Backed EC2?",
+    "answer": "Una instancia EC2 que usa EBS como volumen de almacenamiento como su dispositivo raiz. Nos permite que si la instancia EC2 falla, podamos llevarnos ese EBS a otra nueva instancia sin problema."
+  },
+  {
+    "question": "Que es un ECS task?",
+    "answer": "Se traduciria por cada instancia que esta corriendo un container. Si tenemos 5 docker corriendo la misma app, tendriamos 5 tasks (ya sea en una instacia o multiple instancias)."
+  },
+  {
+    "question": "Los snapshots de un EBS que usa encriptacion son automaticamente encriptados, verdadero o falso?",
+    "answer": "Verdadero"
+  },
+  {
+    "question": "La informacion que viaja on-transit desde un EC2 a un EBS que usa encriptacion no esta encriptado, verdadero o falso?",
+    "answer": "Falso, sí viaja encriptado"
+  },
+  {
+    "question": "Para que sirve AWS Glue?",
+    "answer": "Es un servicio gestionado por amazon para extraer, transformar y cargar (ETL: extract, transform, load) datos para ser analizados. AWS Glue inspecciona los datos a los que apuntes para que puedas buscar y ejecutar queries."
+  },
+  {
+    "question": "En Aurora, si tenemos fallos en la base de datos primaria, que acciones toma?",
+    "answer": "Aurora primero intentará  crear una nueva instancia en el mismo AZ. Si no es posible, lo intentará en una AZ diferente"
+  },
+  {
+    "question": "No tenemos mucho dinero y queremos usar un EBS para una base de datos y una app con archivos en el mismo EBS con hasta 460 Gb de espacio, qué tipo debemos escoger?",
+    "answer": "GP (General Purpose)"
+  },
+  {
+    "question": "Podemos usar Route 53 weighted routing en combinacion con failover?",
+    "answer": "No"
+  },
+  {
+    "question": "Qué health checks usamos para una aplicación web?",
+    "answer": "HTTP o HTTPS health checks"
+  },
+  {
+    "question": "Si tenemos una spot instance que cuesta 0.04 €/h y se ha terminado debido a que se ha detectado un incremento del precio se nos cobrará mas de lo acordado?",
+    "answer": "No, nunca se cobrará mas de 0.04 €/h"
+  },
+  {
+    "question": "Cual es el tiempo maximo que puede tardar S3 Glacier en recuperar un objeto?",
+    "answer": "12 horas"
+  },
+  {
+    "question": "Qué servicio se nos viene a la cabeza cuando hablamos de distributed session data management?",
+    "answer": "AWS ElastiCache. Cookie stickiness podria ser una opcion alternativa pero tiene muchas limitaciones."
+  },
+  {
+    "question": "Estamos usando CloudHSM (Hardware Security Nodule) para almacenar nuestras claves. Debido a logins fallidos, el modulo ha sido borrado. Como podemos recuperar las claves?",
+    "answer": "No podemos, se han perdido permanentemente."
+  },
+  {
+    "question": "AWS Storage Gateway: En qué consiste Cached volumes?",
+    "answer": "Almacenamos nuestros archivos en S3, pero retenemos en los dispositivos on-premises los de acceso frecuente. Solo compatible con iSCSI (forma parte de Volume Gateway)."
+  },
+  {
+    "question": "AWS Storage Gateway: En qué consiste Stored volumes?",
+    "answer": "Es un Volume Storage que realiza automaticamente una copia en S3 de manera asincrona."
+  },
+  {
+    "question": "Qué dos tipos encontramos en AWS Storage Gateway: Volume Gateway?",
+    "answer": "Stored Volume y cached volumes"
+  },
+  {
+    "question": "Dónde configuramos los database-specific settings de una intancia o grupo de RDS?",
+    "answer": "Parameter Group"
+  },
+  {
+    "question": "Cual es el minimo tiempo que se cobra por estar un objeto en cada tipo de buket?",
+    "answer": "S3 standard: 0 dias. S3 Glacier: 90 dias. Glacier Deep Archive: 180 dias. Resto (IA): 30 días. Para los bucket IA, deben permanecer al menos 30 dias en el bucket ANTERIOR antes de moverlos a una IA."
+  },
+  {
+    "question": "Scaling policies: Target Tracking Scaling, en qué consiste?",
+    "answer": "Establece el escalado basado en una metrica specifica. Similar a como funciona un termostato en casa."
+  },
+  {
+    "question": "Scaling policies: Step scaling, en qué consiste?",
+    "answer": "Establece el escalado basado en un set de \"step ajustements\", que varían en funcion del unbrales o \"pasos\" de una alarma"
+  },
+  {
+    "question": "Scaling policies: Simple scaling, en qué consiste?",
+    "answer": "Establece el escalado basado en un unico \"single ajustement\"."
+  },
+  {
+    "question": "Scaling policies: Scheduled scaling, en qué consiste?",
+    "answer": "Establece el escalado basado en patrones de uso previsibles."
+  },
+  {
+    "question": "EBS Snapshots son point in time, qué significa?",
+    "answer": "Funcionan como un repo. Es decir podemos recuperar el estado en unos días atras, sin nececsidad de crear duplicados. Eso hace que un volumen de 10 GB tenga snapshots de peso superior, ya que contienen los cambios que han ido sucediendo."
+  },
+  {
+    "question": "EBS Snapshots son point in time por defecto?",
+    "answer": "Sí"
+  },
+  {
+    "question": "Qué AWS Trusted Advisor?",
+    "answer": "Te provee de guia en tiempo real para ayudarte a gestionar tus recursos de amazon de manera correcta siguiendo las buenas prácticas."
+  },
+  {
+    "question": "Cuando creamos usuarios IAM de administracion para nuestro equipo? Qué debemos pasarles para que puedan empezar a usarlos?",
+    "answer": "Debemos pasarles las contraseñas. Ellos deben encargarse de cambiarlas o lo que sea necesario dependiendo de la politica de la empresa."
+  },
+  {
+    "question": "Queremos encriptar los logs de nuestra aplicación at rest. Estamos utilizando ClodTrail. Qué debemos hacer?",
+    "answer": "CloudTrail usa server side encryption por defecto."
+  },
+  {
+    "question": "Qué nos permite los VPC Endpoints?",
+    "answer": "Permiten contectar de manera privada servicios de AWS y VPCs. Tenemos Interface Endpoints y Gateway Endpoints."
+  },
+  {
+    "question": "VPC Endpoint: Interface endpoints, que son?",
+    "answer": "Permiten contectar de manera privada servicios de AWS y VPCs. En este caso sirve para practicamente todos los servicios de Amazon."
+  },
+  {
+    "question": "VPC Endpoint: Gateway endpoints, que son?",
+    "answer": "Permiten contectar de manera privada servicios de AWS y VPCs. En este caso sirve unicamente para DynamoDB y S3."
+  },
+  {
+    "question": "Qué protocolo expone Api Gateway?",
+    "answer": "HTTPS"
+  },
+  {
+    "question": "Qué es AWS Database Migration Service?",
+    "answer": "Un servicio de Amazon que nos permite migrar rapidamente bases de datos en nuestros on-premises a la nube. Tambien se incluyen servicios como AWS Schema Conversion Tool para migrar distintas tencologias de base de datos."
+  },
+  {
+    "question": "Como podemos ver los logs de un Load Balancer?",
+    "answer": "Tienen un log propio donde podemos consultar las diferentes peticiones y sus horas."
+  },
+  {
+    "question": "Tenemos un contenedor docker que se encarga de tareas criticas y otras de analitica no esenciales. Que eligiriamos como EC2 para rebajar costes?",
+    "answer": "2 tipos, reserved y sport."
+  },
+  {
+    "question": "Cual es el único campo obligatorio en un template de CloudFormation?",
+    "answer": "Resources"
+  },
+  {
+    "question": "Qué son MyISAM y InnoDB?",
+    "answer": "Motores de almacenamiento MySQL (diponibles para elegir en RDS). InnoDB es mas estricto y tiene mayor capacidad de recuperación de crashes (Recomendado por AWS). En cambio MyISAM tiene mas rendimiento."
+  },
+  {
+    "question": "Hemos reiniciado una instancia EC2 en un VPC. Cambiará su IP privada?",
+    "answer": "No. En cambio si estamos en EC2 Classic y no VPC, recibirá una nueva."
+  },
+  {
+    "question": "Cuanto tiempo toma a SG hacer efectivos los cambios?",
+    "answer": "Son efectivos inmediatamente."
+  },
+  {
+    "question": "AWS VPC soporta Multicast?",
+    "answer": "No, hay que contruir un IP level multicast across a network on the OS level of the instance."
+  },
+  {
+    "question": "Con qué servicio podemos desplegar en el mismo instante una nueva aplicación en un grupo de recursos?",
+    "answer": "AWS CodeDeploy"
+  },
+  {
+    "question": "Qué recomendaciones existen para Placement Group, cuál es el limite de cantidad de instancias?",
+    "answer": "Lanzar todas las instancias A LA VEZ (lanza errores de insufficient capacity). Piensa que las instancias se reparten la capacidad cuando son iniciadas. Qué todas las instancias sean similares en cuanto a recursos. No existe límite."
+  },
+  {
+    "question": "Qué puerto utilizan los escritorios virtuales?",
+    "answer": "3389"
+  },
+  {
+    "question": "Qué protocolo utilizan los escritorios virtuales?",
+    "answer": "TCP y UDP debe estar disponible en el SG."
+  },
+  {
+    "question": "Estamos utilizando S3 y Cloud Front sirve nuestra imagenes. Hemos cambiado un archivo pero el cliente no recibe la nueva imagen. De alguna forma se está cacheando. Qué podemos hacer para solucionarlo de la forma mas barata posible?",
+    "answer": "Podríamos invalidarlo en CloudFront pero sería muy caro. Usariamos versionado. Versioning enables you to control which file a request returns even when the user has a version cached either locally or behind a corporate caching proxy. If you invalidate the file, the user might continue to see the old version until it expires from those caches."
+  },
+  {
+    "question": "IPsec qué es?",
+    "answer": "(Internet Protocol security) Hace referencia a la conexión encriptada que utiliza Site-to-Site VPN."
+  },
+  {
+    "question": "Qué es Amazon Connect?",
+    "answer": "El servicio que vende y utiliza amazon para dar soporte y servicio de contacto para clientes. (Truco para distinguirlo: No contiene AWS)"
+  },
+  {
+    "question": "Cómo movemos un EBS de un AZ a otro?",
+    "answer": "Creamos un snapshot y creamos un nuevo volumen en la nueva AZ usando el snapshot."
+  },
+  {
+    "question": "Cuando creamos un usuario a traves de CLI, qué permisos tiene por defecto?",
+    "answer": "Si lo creamos mediante contraseña ninguno. Si le asignamos Access Keys, los asociados a la misma."
+  },
+  {
+    "question": "Que son los Access Keys?",
+    "answer": "Permite llamar a servicios de amazon desde el CLI de Amazon. Siempre estan asociados a un usuario."
+  },
+  {
+    "question": "En qué condiciones un ElasticIP no incurre cargos?",
+    "answer": "Cuando esta asociada a una EC2, ésta está corriendo y sólo hay una EIP asociada a esa instancia."
+  },
+  {
+    "question": "AWS BeanStalk. Donde se guardan los archivos de la app? Dónde se guarda los logs que genera?",
+    "answer": "S3. S3 o CloudWatch."
+  },
+  {
+    "question": "Qué es AWS Organizations?",
+    "answer": "AWS Organizations offers policy-based management for multiple AWS accounts. With Organizations, you can create groups of accounts, automate account creation, apply and manage policies for those groups. Organizations enables you to centrally manage policies across multiple accounts,."
+  },
+  {
+    "question": "AWS hosts a variety of public datasets such as satellite imagery, geospatial, or genomic data that you want to use for your web application hosted in Amazon EC2.If you use these datasets, how much will it cost you?",
+    "answer": "No charge."
+  },
+  {
+    "question": "Que pasa si en CloudFront ponemos a 0 el Cache control max age?",
+    "answer": "Les peticiones viajarían directamente a las máquinas y no serían cacheadas en CloudFront"
+  },
+  {
+    "question": "Qué es Blue/Green deployment?",
+    "answer": "Levantar una nueva aplicación con la actualización usando recursos totalmente nuevos (con el gasto que conlleva). Se puede testear y luego hace el switch para dirigir a la nueva aplicación (green)"
+  },
+  {
+    "question": "Necesitamos que nuestros administradores puedan acceder a la diferentes cuentas que componen nuestro AWS Organization, que debemos utilizar?",
+    "answer": "IAM cross-account access."
+  },
+  {
+    "question": "Qué es CLOUDHSM?",
+    "answer": "Un servicio que permite almacenar claves en un modulo de hardware dedicado de un tercero y validado en cuanto a seguridad."
+  },
+  {
+    "question": "En qué momento nos puede ayudar MultiAZ además de con la caída de una zona?",
+    "answer": "Mientras se producen OS patches, system upgrades o db instance scaling."
+  },
+  {
+    "question": "Como podemos usar HTTPS en un RDS de AWS si se nos requiere (2 opciones!)?",
+    "answer": "Opción 1: Descargar el Root CA Certificate de Amazon y permitir solo el puerto 443 en el SG. Opcion 2: Si usamos IAM en el RDS automaticamente la comunicación se hará mediante el uso de un SSL. Opcion 3: Usar \"rds.force_ssl\" a true y resetear."
+  },
+  {
+    "question": "Qué requisito tiene el poder usar cross-region replication en S3?",
+    "answer": "Versionado. Piensa como si fueran el replicado async que hace RDS, necesitamos orden para poder replicar!"
+  },
+  {
+    "question": "Necesitamos VPC peering entre diferentes regiones, que podemos usar?",
+    "answer": "Inter-Region VPC Peering"
+  },
+  {
+    "question": "MultiPart Upload es secuencial o paralelo?",
+    "answer": "Paralelo, por lo que aumenta la velocidad final de la subida."
+  },
+  {
+    "question": "Qué es AWS Resource Access Manager (RAM)?",
+    "answer": "Permite compartir de forma segura recursos de Amazon cross-account o en combinación con AWS Organization."
+  },
+  {
+    "question": "Qué nos permite Signed Cookies de Cloudfront?",
+    "answer": "Las Signed Cookies de CloudFront permiten controlar quién puede obtener acceso a su contenido cuando no desea cambiar las URL actuales o cuando desea proporcionar acceso a varios archivos restringidos"
+  },
+  {
+    "question": "Qué significa el parámetro --is-multi-region-trail en CloudTrail?",
+    "answer": "Sirve para trackear todos los cambios realizados en TODAS las regiones."
+  },
+  {
+    "question": "Qué significa el parámetro --include-global-service-events en CloudTrail?",
+    "answer": "Sirve para trackear todos los eventos realizados y llamadas API desde CLI y AWS Console."
+  },
+  {
+    "question": "Qué es Enhanced Monitoring?",
+    "answer": "Un tipo de monitoreo disponible en RDS que nos brinda una mayor precisión debido a que reside en una capa más fisica de la máquina. Nos ofrece más información de como se gestionan los thread en la CPU (RDS child processes and OS Processes)"
+  },
+  {
+    "question": "Qué significa POSIX-compliant?",
+    "answer": "Being POSIX-compliant for an OS means that it supports those standards (e.g., APIs), and thus can either natively run UNIX programs, or at least porting an application from UNIX to the target OS is easy/easier than if it did not support POSIX"
+  },
+  {
+    "question": "Qué es un cluster endpoint en Aurora?",
+    "answer": "Se conoce tambien como writer endpoint ya que conecta con la base de datos primaria de Aurora."
+  },
+  {
+    "question": "Qué es un instance endpoint en Aurora?",
+    "answer": "Conecta con una instancia específica en Aurora. El cliente toma la decisión de a qué instancia quiere dirigir su petición, en vez de dejar a Aurora decidir."
+  },
+  {
+    "question": "Qué es un reader endpoint en Aurora?",
+    "answer": "Conecta al pool de las read replicas disponibles en Aurora."
+  },
+  {
+    "question": "Permite Aurora crear custom endpoints en base a nuestro criterio y necesidades?",
+    "answer": "Sí"
+  },
+  {
+    "question": "\"AWS Directory Service: Managed Microsft AD\" vs \"AWS Directory Service: Simple AD\" vs \"AWS Directory Service: AD Connector\", que son?",
+    "answer": "Managed Microsft AD: Create your own AD in AWS (manage users locally on premises). Simple AD es un AD maneja enteramente en AWS. AD Connector es un PROXY para tener el AD en tu entorno on-premises."
+  },
+  {
+    "question": "Qué instancias EC2 pueden ser \"convertidas\" a una de mayor capacidad?",
+    "answer": "Únicamente Convertible Reserved Instances"
+  },
+  {
+    "question": "Lista de servicios que permiten el acceso al underlying OS?",
+    "answer": "Amazon EMR, EC2, ECS, Beanstalk, OpsWorks."
+  },
+  {
+    "question": "Aumentamos los IOPS de una instancia EC2 al aumentar su capacidad, al igual que GP EBS?",
+    "answer": "Sí"
+  },
+  {
+    "question": "Qué es CloudFront Origin Failover?",
+    "answer": "Es el High Availability de CloudFront. Permite que, en caso de que un servicio al que está apuntando devuelva error, redirigir la petición a otro que ofrezca el mismo servicio."
+  },
+  {
+    "question": "CloudFormation: Resources, qué es?",
+    "answer": "Recursos de AWS que usaremos declarados en el template"
+  },
+  {
+    "question": "CloudFormation: Parameters, qué es?",
+    "answer": "Inputs dinámicos que recibirá nuestro template (por ejemplo, numero de instancias que queremos levantar)"
+  },
+  {
+    "question": "CloudFormation: Mappings, qué es?",
+    "answer": "Variables estáticas para nuestro template (imagino que serán constantes, por ejemplo un nombre)"
+  },
+  {
+    "question": "CloudFormation: Outputs, qué es?",
+    "answer": "Referencias creadas para los recursos creados por la template."
+  },
+  {
+    "question": "CloudFormation: Conditionals, qué es?",
+    "answer": "Lista de conficiones para llevar a cabo la creación de un recurso."
+  },
+  {
+    "question": "Qué es WorkDocs?",
+    "answer": "WorkDocs es un servicio de almacenamiento cloud de archivos que compite con DropBox, Google Drive, OneDrive..."
+  },
+  {
+    "question": "Qué es un ENI (Elastic Network Interface)?",
+    "answer": "Es un componente logico en una VPC que representa un tarjeta de red virtual, y nos permite dirigir tráfico a nuestra instancia"
+  },
+  {
+    "question": "Queremos usar en Route 53 la direccion NON-ROOT: something.mydomain.com, qué tipo de target utilizaremos?",
+    "answer": "ALIAS o CNAME"
+  },
+  {
+    "question": "Queremos usar en Route 53 la direccion ROOT: mydomain.com, qué tipo de target utilizaremos?",
+    "answer": "ALIAS"
+  },
+  {
+    "question": "Como podemos hacer que varias queries queden registradas en DynamodDB pero si una falla, se haga rollback?",
+    "answer": "Utilizando Transacciones de DynamoDB"
+  },
+  {
+    "question": "En qué consiste DynamoDB on demand?",
+    "answer": "No tenemos que proveer a dynamoDB de una capacidad WCU/RCU, sino que escala automaticamente. 2.5x mas caro"
+  },
+  {
+    "question": "Cómo conseguimos cross-region replication en DynamoDB?",
+    "answer": "Usando Global Tables. Este tipo de tablas son replicadas a otra region de forma activa-activa (da igual la tabla que escribamos, se replicará a las demás, no existe una primaria que gobierne sobre las demas). Util para disaster recovery o BAJA LATENCIA en regiones!"
+  },
+  {
+    "question": "En qué consiste la estrategia de disaster recovery Pilot Light?",
+    "answer": "La parte core crítica de la app y su entorno está corriendo siempre en el cloud, de manera que podamos proveer rápidamente una aplicación completa."
+  },
+  {
+    "question": "En qué consiste la estrategia de disaster recovery Warm Standby?",
+    "answer": "Una aplicacion COMPLETA en STANDBY esta corriendo, pero en el mínimo tamaño, de manera que podamos escalarla rápido."
+  },
+  {
+    "question": "En qué consiste la estrategia de disaster recovery Multi Site?",
+    "answer": "Varias aplicaciones COMPLETAS están corriendo a la vez y se encuentran activas. (Se reparten la carga)"
+  },
+  {
+    "question": "En disaster Recovery, qués es RPO y RTO?",
+    "answer": "Recovery Point Objetive y Recovery Time Objetive (punto del tiempo que podemos recuperar HASTA el desastre y tiempo que tardamos en recuperarlo DESDE el desastre)."
+  },
+  {
+    "question": "A la vez, necesitamos que las urls de CloudFront expiren. Que funcion de CloudFront podemos utilizar?",
+    "answer": "CloudFront signed URLs"
+  },
+  {
+    "question": "Quién se encarga del OS Patching de EC2? AWS o nosotros?",
+    "answer": "Nosotros"
+  },
+  {
+    "question": "Quién se encarga de gestionar el underlying network infraestructure de AWS? AWS o nosotros?",
+    "answer": "AWS"
+  },
+  {
+    "question": "Network ACL qué es?",
+    "answer": "Es el \"SG\" para subnets, controla qué IPs tienen acceso inbound y outbound"
+  },
+  {
+    "question": "Qué significa \"warm attach\" en ENI?",
+    "answer": "We attach the interface when the instance is STOPPED"
+  },
+  {
+    "question": "Qué significa \"hot attach\" en ENI?",
+    "answer": "We attach the interface when the instance is RUNNING"
+  },
+  {
+    "question": "Qué significa \"cold attach\" en ENI?",
+    "answer": "We attach the interface when the instance is BEING LAUNCHED"
+  },
+  {
+    "question": "Provee S3 de AES128 encryption?",
+    "answer": "NO, solo AES256"
+  },
+  {
+    "question": "Cuando hacemos Stop en una instancia que ocurre con los datos?",
+    "answer": "Se mantienen intactos"
+  },
+  {
+    "question": "Cuando terminamos una instancia que ocurre con los datos?",
+    "answer": "Se eliminan"
+  },
+  {
+    "question": "Que ventajas tiene EC2 Hibernate sobre Stop o Terminate?",
+    "answer": "La RAM no se pierde, así que el boot será mas rapido. La memoria RAM antes de detenerse se guardara en el root volume. El volumen tambien se guarda (obviamente, ahi es donde está la info de la RAM) (No puede hibernar mas de 60 dias)"
+  },
+  {
+    "question": "ELB: Connection draining, con qué terminos se le reconoce según el tipo de balanceador?",
+    "answer": "Classic: Connection draining. Application y Network: Deregistration Delay."
+  },
+  {
+    "question": "Como se llama el EFS especial para Windows?",
+    "answer": "Amazon FSx"
+  },
+  {
+    "question": "Qué es Amazon FSx?",
+    "answer": "Es el EFS especial para Windows (EFS no es compatible, debido a que es POSIX/Basado en Linux)"
+  },
+  {
+    "question": "Que protocolos de almacenamiento soporta Amazon FSx?",
+    "answer": "SMB y NTFS"
+  },
+  {
+    "question": "Para qué sirve Amazon FSx for Lustre?",
+    "answer": "(Lustre = Linux + Cluster, No tiene nada que ver con Windows!). Es un tipo de almacenamiento distribuido paralelamente, especial para Machine Learning, High Performance Computing. Usa S3 under the hood."
+  },
+  {
+    "question": "Pongamos que tengo 5 camiones que mandan informacion a Kinesis sobre su localizacion. Tan solo tengo 3 shards. Como se repartira la informacion?",
+    "answer": "Se repartiran uniformemente pero siempre manteniendo el shard. Ejemplo: 1,2 -> A | 3,4 -> B | 5 -> C"
+  },
+  {
+    "question": "Qué nos permite AWS Config?",
+    "answer": "Permite auditar y llevar un histórico de la configuración de los servicios de Amazon."
+  },
+  {
+    "question": "Queremos pasar datos de un EFS en la region 1 a otro EFS en la region 2. Que podemos utilizar?",
+    "answer": "AWS DataSync"
+  },
+  {
+    "question": "Cuales el principal servicio para mover grandes cantidades de datos entre regiones o volumenes on-premises?",
+    "answer": "AWS DataSync"
+  },
+  {
+    "question": "EC2-Classic, que es?",
+    "answer": "Era la antigua forma en la que corrian las maquinas de Amazon. En vez de haber VPCs que isolaban la cuenta, todos los clientes compartian la misma red"
+  },
+  {
+    "question": "El diseño de una base de datos para una aplicacion Online Transaction Processing (OLTP) es relacional o no relacional?",
+    "answer": "Relacional"
+  },
+  {
+    "question": "Estamos usando una base de datos RDS y queremos que se encripte, como podemos hacerlo?",
+    "answer": "Take a snapshot of the database, copy it as an encrypted snapshot, and restore a database from the encrypted snapshot. Terminate the previous database."
+  },
+  {
+    "question": "S3 Event notification, qué nos permite?",
+    "answer": "Mandar notificaciones cuando ciertos eventos ocurren en el bucket. (SQS, ...)"
+  },
+  {
+    "question": "En RDS si usamos encriptacion en la instancia principal, el resto cómo estará?",
+    "answer": "Encriptado tambien."
+  },
+  {
+    "question": "Podemos mandar un archivo directamente a S3 Glacier?",
+    "answer": "No, hay que mandarlo a S3 primero y luego usar un lifecycle."
+  },
+  {
+    "question": "EFS IA qué es?",
+    "answer": "Es una version de EFS que puede llegar a costar 92% menos que el standard. Para archivos que se acceden de manera infrecuente."
+  },
+  {
+    "question": "Queremos crear un Auto Scaling Group que use una mezcla de Spot y On-Demand. Qué podemos usar?",
+    "answer": "ASG Launch templates soportan este tipo de escalado"
+  },
+  {
+    "question": "Como podemos crear efecto Availability Zone si tenemos asignado un Elastic IP a una maquina en concreto?",
+    "answer": "Debemos usar EC2 user-data para hacer ese cambio de maquina de la IP, en el caso de que se levantase una nueva al caerse la otra."
+  },
+  {
+    "question": "Una compañia tiene multiples AWS Organizations en multiples AWS Accounts. Necesitamos limitar una accion concreta para todas las cuentas y manejar esta restriccion de manera central. Qué podemos utilizar?",
+    "answer": "SCP (Service Control Policies) permite control central para el maximo nivel de gestion de permisos para todas las cuentas de una organizacion (incluso si son admin!)."
+  },
+  {
+    "question": "Qué evento puede hacer que una base de datos RDS deje de dar servicio?",
+    "answer": "DB engine version change"
+  },
+  {
+    "question": "Como podemos mejorar la latencia de un endpoint de AWS API Gateway?",
+    "answer": "Ya que por defecto API Gateway sirve desde el nearest point de cloudfront, no hay razon para usar cloudfront \"encima\". Habria que configurar un TTL y usar cache (no especifica como)"
+  },
+  {
+    "question": "Como podemos aumentar el rendimiento de una base de datos a la vez que aumentamos su availability?",
+    "answer": "Creamos un RDS Replica como MultiAZ. Esto creara una db standby en otro AZ diferente a la original. Lo normal."
+  },
+  {
+    "question": "Como podemos ver la memoria consumida en Amazon Aurora?",
+    "answer": "Activando Enhanced Monitoring de Aurora."
+  },
+  {
+    "question": "Queremos acceder a dynamoDb desde una private subnet de nuestro VPC. Como podemos hacerlo?",
+    "answer": "Creat un VPC Gateway endpoint y añadir una entrada a la route table del VPC."
+  },
+  {
+    "question": "Cuando colocamos un cloudfront en frente de un ALB que apunta a una app web, como mejora la aplicacion?",
+    "answer": "Se cachean los contenidos estaticos y reduce las peticiones al ALB. Por lo que se necesita menos maquinas en el ASG"
+  },
+  {
+    "question": "Necesitamos ver el log de acceso a nuestro bucket S3. Como podemos hacerlo?",
+    "answer": "Activar enable access monitoring de S3."
+  },
+  {
+    "question": "Como podemos programar backups de DynamoDB?",
+    "answer": "DynamoDb on-demand backup nos permite crear backups. Para programarlos necesitariamos utilizar cloudwatch + lambda ya que no tiene sistema para scheduling."
+  },
+  {
+    "question": "Podemos usar las instancia multi-AZ de Aurora como read replicas?",
+    "answer": "Sí, para Aurora sí! Super guais los de amazon"
+  },
+  {
+    "question": "Podemos usar las read replicas de Aurora para aumentar Availability?",
+    "answer": "Sí, para Aurora sí! Super guais los de amazon"
+  },
+  {
+    "question": "Qué dos acciones se pagan en KMS?",
+    "answer": "API requests por uso de claves y almacenar customer keys."
+  },
+  {
+    "question": "Cómo podemos trackerar la ram en una EC2?",
+    "answer": "EC2: Install the CloudWatch agent on the EC2 instance to push memory usage to an Amazon CloudWatch custom metric."
+  },
+  {
+    "question": "Amazon Cognito User Pool vs Amazon Cognito Identity Pool. Qué permiten?",
+    "answer": "User pools nos permite crear nuestra \"piscina\" de usuario (registro, login, pass recovery...). Identity nos permite autenticarlos contra servicios de  terceros (S3, DynamoDb, APIGateway...)"
+  },
+  {
+    "question": "DynamoDB on-demand: necesitamos que escale. Qué característica podemos usar?",
+    "answer": "DynamoDB on-demand escala automaticamente ya que no lo decimos que capacidad queremos. Siempre escalara en funcion de la carga. (Sino seria provisioned)"
+  },
+  {
+    "question": "Que es Task Definition en AWS ECS?",
+    "answer": "Define el container. Principalmente: imagen docker, cantidad cpu/ram, IAM Role"
+  },
+  {
+    "question": "Como podemos utilizar HTTPS en load balancers?",
+    "answer": "Use an Application Load Balancer (ALB) with an HTTPS listener, then install SSL certificates on the ALB and EC2 instances. Use a Network Load Balancer (NLB) with a TCP listener, then terminate SSL on EC2 instances"
+  },
+  {
+    "question": "Qué es Elastic Fabric Adapter (EFA)?",
+    "answer": "Its a network device similar to ENI that you can attach to an EC2 to accelerate High Performance Computing (HPC) and machine learning applications."
+  },
+  {
+    "question": "Qué es Elastic Network Adapter (ENA)?",
+    "answer": "Sirve para cuando necesitamos gran ancho de banda y latencia inter-estancia mas baja"
+  },
+  {
+    "question": "Qué es S3 Intelligent-Tiering storage class?",
+    "answer": "Its designed to optimize costs by automatically moving data to the most cost-effective access tier, without performance impact or operational overhead. This is ideal when the access patterns are not well understood."
+  },
+  {
+    "question": "Qué podemos utilizar para mejorar la latencia de una app que sirve en una IP publica estatica?",
+    "answer": "AWS Global Accelerator. Cloud front no puede servir IP publica estatica!!"
+  },
+  {
+    "question": "Qué diferencia hay entre AWS Global Accelerator y AWS Transfer Acelerator?",
+    "answer": "AWS Global Accelerator mejora la latencia de una app que sirve en una IP publica estatica (cosa que cloudfront no puede). AWS Transfer Accelerator mejora la velocidad solo en S3."
+  },
+  {
+    "question": "Cómo podemos reducir el tiempo de retrieve de DynamoDB from milliseconds to microseconds?",
+    "answer": "Usando DAX. ElasticCache no reduce tanto. (1x52)"
+  },
+  {
+    "question": "Podemos aumentar o reducir la cantidad de Contenedores Tasks con CludWatch o necesitamos Lambda?",
+    "answer": "Sí se puede desde Cloudwatch"
+  },
+  {
+    "question": "Route 53 Geoproximity. Qué permite?",
+    "answer": "Let Route 53 route traffic to specific instances based on the location of the INSTANCES AND the USERS"
+  },
+  {
+    "question": "Qué servicio se salta la restricción de permanecer en S3 antes de mover los datos Glacier Deep Archive?",
+    "answer": "DataSync! Es el servicio especial para mover grandes cantidades de archivos (tanto on-premises como inter-region), por lo que tiene logica que pueda."
+  },
+  {
+    "question": "Un Elastic IP se libera al parar una instancia?",
+    "answer": "No"
+  },
+  {
+    "question": "Se pierden los datos de una instancia EC2 cuando la paramos?",
+    "answer": "Sí"
+  },
+  {
+    "question": "Se nos cobra cuando una Spot Instance esta stopping? Y una On-Demand?",
+    "answer": "La Spot NO se sobra, pero la On-Demand SÍ!"
+  },
+  {
+    "question": "AWS EMR? Qué es?",
+    "answer": "Amazon EMR es la plataforma para big data para procesamiento y análisis de grandes volúmenes de datos"
+  },
+  {
+    "question": "AWS Step Functions VS SWF, diferencias?",
+    "answer": "Step Functions ofrece una interfaz mas visual e intuitiva (recomendable para apps nuevas). SWF se recomiendan cuando existen \"extenal deciders\". Ademas, en Step Functions usamos JSON de manera declarativa y en SWF picamos el codigo directamente."
+  },
+  {
+    "question": "Para qué sirve Lamda@Edge?",
+    "answer": "Para realizar procesamiento de computo cerca del usuario usando los edge locations."
+  },
+  {
+    "question": "Bulk retrieval vs Expedited retrieval?",
+    "answer": "Bulk permite recuperar archivos de manera lenta (5-12 horas), de tal forma que no tiene apenas coste (para Glacier). Expedited lo contrario, permite recuperarlo rapido (1-5 minutos) con un coste mayor (para urgencias)."
+  },
+  {
+    "question": "Puede apuntar NLB a contenedores Fargate?",
+    "answer": "Si"
+  },
+  {
+    "question": "Que es AWS Neptune?",
+    "answer": "Amazon Neptune is a purpose-built, high-performance graph database engine optimized for storing billions of relationships and querying the graph with milliseconds latency."
+  },
+  {
+    "question": "Que volumen/es EBS se puede usar como boot bolume?",
+    "answer": "Los SSD."
+  }
+]
