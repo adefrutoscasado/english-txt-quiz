@@ -40,5 +40,124 @@
     "timestamp": "2026-09-13",
     "description": "Use 'since' with a starting point in time. Use 'for' with a duration, such as 'for three years'.",
     "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Estábamos acostumbrados a trabajar desde casa.'",
+    "answer": "We were used to working from home.",
+    "timestamp": "2026-09-10",
+    "description": "Use 'be used to + -ing' for being accustomed to something. Do not confuse it with 'used to + infinitive' for past habits.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Hay varias ofertas de trabajo a las que quiero presentarme.'",
+    "answer": "There are several job offers that I want to apply for.",
+    "timestamp": "2026-09-10",
+    "description": "Use 'apply for' when applying for a job, position, grant, or opportunity.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'La ambulancia está llegando a una intersección.'",
+    "answer": "The ambulance is arriving at an intersection.",
+    "timestamp": "2026-09-10",
+    "description": "Use 'arrive at' for specific places such as an intersection, station, or building.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate naturally into English: 'He estado durmiendo unas cinco horas por noche.'",
+    "answer": "I've been sleeping about five hours a night.",
+    "timestamp": "2026-09-10",
+    "description": "In everyday English, 'five hours a night' is more natural than 'five hours per night'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'El sistema registraba las matrículas de los camiones pesados.'",
+    "answer": "The system recorded the license plates of heavy trucks.",
+    "timestamp": "2026-09-10",
+    "description": "'License plate' means the vehicle's matrícula. Use the plural 'license plates' when referring to multiple vehicles.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'El sistema puede desactivar los aspersores cuando llueve.'",
+    "answer": "The system can deactivate the sprinklers when it rains.",
+    "timestamp": "2026-09-10",
+    "description": "'Sprinkler' means aspersor. Prefer the direct verb 'deactivate' instead of 'make the sprinklers to be deactivated'.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate naturally into English: 'Necesito una guarnición que acompañe al tofu.'",
+    "answer": "I need a side to go with the tofu.",
+    "timestamp": "2026-09-10",
+    "description": "'A side' or 'side dish' is a guarnición. 'To go with' is natural for food that accompanies another dish.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'El sistema registraba el número de personas que había en la playa.'",
+    "answer": "The system recorded the number of people on the beach.",
+    "timestamp": "2026-09-10",
+    "description": "Use 'number of' with countable nouns such as people and cars; use 'amount of' with uncountable nouns such as water.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Los semáforos dan prioridad a la ambulancia.'",
+    "answer": "The traffic lights give priority to the ambulance.",
+    "timestamp": "2026-09-10",
+    "description": "The expression is 'give priority to', without 'the' before 'priority'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate naturally into English: 'Está muy bien pensado.'",
+    "answer": "It's very well thought out.",
+    "timestamp": "2026-09-10",
+    "description": "'Well thought out' means carefully planned or considered. Do not use 'well thought up' here.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'El sistema detectaba los camiones pesados que pasaban por determinadas carreteras.'",
+    "answer": "The system detected the heavy trucks that passed through certain roads.",
+    "timestamp": "2026-09-10",
+    "description": "'Pass through' is useful for vehicles moving through a road, checkpoint, monitored point, or area.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'Mi trabajo soñado sería ser compositor de música electrónica.'",
+    "answer": "My dream job would be to be an electronic music composer.",
+    "timestamp": "2026-09-10",
+    "description": "Use 'would be' for a hypothetical dream job. 'Composer' means compositor.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'La melodía está muy bien pensada y empieza con un pequeño motivo musical.'",
+    "answer": "The melody is very well thought out and starts with a small musical motif.",
+    "timestamp": "2026-09-10",
+    "description": "A 'motif' is a short musical idea or phrase that can be repeated or developed.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'Me gustaría ser bombero durante un día.'",
+    "answer": "I'd like to be a firefighter for a day.",
+    "timestamp": "2026-09-10",
+    "description": "'Firefighter' is the standard gender-neutral word for bombero or bombera.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'Eres muy humilde.'",
+    "answer": "You're very humble.",
+    "timestamp": "2026-09-10",
+    "description": "'Humble' describes someone who does not act as if they are more important than others.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Say the word 'continue' aloud and identify the stressed syllable.",
+    "answer": "The stress is on the second syllable: con-TIN-you.",
+    "timestamp": "2026-09-10",
+    "description": "The final sound is like 'you'. Focus on stressing the second syllable.",
+    "category": "PRONUNCIATION"
+  },
+  {
+    "question": "Say the word 'sprinklers' aloud. Which consonant cluster needs special attention?",
+    "answer": "The consonant cluster around -nkl-.",
+    "timestamp": "2026-09-10",
+    "description": "Practise 'sprinkle' first, then add the plural ending to build up to 'sprinklers'.",
+    "category": "PRONUNCIATION"
   }
 ]
