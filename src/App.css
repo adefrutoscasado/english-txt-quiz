@@ -100,6 +100,12 @@
   font-weight: 700;
 }
 
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
 .category-filter select {
   padding: 8px 10px;
   border: 1px solid #d4d4d8;
@@ -206,6 +212,10 @@
 
   .buttons {
     flex-direction: column;
+  }
+
+  .filters {
+    gap: 12px;
   }
 
   .answer {

@@ -1,47 +1,5 @@
 [
   {
-    "question": "Choose the correct sentence: 'She ___ coffee every morning.'",
-    "answer": "She drinks coffee every morning.",
-    "timestamp": "2026-09-13",
-    "description": "Use the present simple for habits and routines. With he, she, or it, add -s to the verb.",
-    "category": "GRAMMAR"
-  },
-  {
-    "question": "What is the opposite of 'generous'?",
-    "answer": "Selfish.",
-    "timestamp": "2026-09-13",
-    "description": "A generous person likes giving or sharing; a selfish person mainly thinks about themselves.",
-    "category": "VOCABULARY"
-  },
-  {
-    "question": "Which syllable is stressed in the word 'photograph'?",
-    "answer": "The first syllable: PHO-to-graph.",
-    "timestamp": "2026-09-13",
-    "description": "The stress changes in the related word 'photography': pho-TOG-ra-phy.",
-    "category": "PRONUNCIATION"
-  },
-  {
-    "question": "What does the phrasal verb 'look after' mean?",
-    "answer": "To take care of someone or something.",
-    "timestamp": "2026-09-13",
-    "description": "For example: 'Can you look after my cat while I am away?'",
-    "category": "PHRASAL_VERBS"
-  },
-  {
-    "question": "Complete the idiom: 'It is raining ___. '",
-    "answer": "It is raining cats and dogs.",
-    "timestamp": "2026-09-13",
-    "description": "This idiom means that it is raining very heavily.",
-    "category": "IDIOMS"
-  },
-  {
-    "question": "Choose the correct preposition: 'I have lived here ___ 2020.'",
-    "answer": "I have lived here since 2020.",
-    "timestamp": "2026-09-13",
-    "description": "Use 'since' with a starting point in time. Use 'for' with a duration, such as 'for three years'.",
-    "category": "GRAMMAR"
-  },
-  {
     "question": "Translate into English: 'Ella está acostumbrada a trabajar con plazos ajustados.'",
     "answer": "She is used to working with tight deadlines.",
     "timestamp": "2026-09-10",
