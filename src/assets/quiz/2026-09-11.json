@@ -1,0 +1,240 @@
+[
+  {
+    "question": "Translate into English: 'Ella disfruta aprendiendo idiomas nuevos.'",
+    "answer": "She enjoys learning new languages.",
+    "timestamp": "2026-09-11",
+    "description": "Use 'enjoy + -ing'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Decidieron salir temprano.'",
+    "answer": "They decided to leave early.",
+    "timestamp": "2026-09-11",
+    "description": "Use 'decide + to-infinitive'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Evito usar el móvil antes de dormir.'",
+    "answer": "I avoid using my phone before going to sleep.",
+    "timestamp": "2026-09-11",
+    "description": "Use 'avoid + -ing'. After the preposition 'before', use the -ing form as well.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Espero terminar esto hoy.'",
+    "answer": "I hope to finish this today.",
+    "timestamp": "2026-09-11",
+    "description": "Use 'hope + to-infinitive'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Ella sugirió coger un taxi.'",
+    "answer": "She suggested taking a taxi.",
+    "timestamp": "2026-09-11",
+    "description": "Use 'suggest + -ing', not 'suggest to do'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Estoy acostumbrado a trabajar desde casa.'",
+    "answer": "I'm used to working from home.",
+    "timestamp": "2026-09-11",
+    "description": "In 'be used to', 'to' is a preposition, so it is followed by a noun or -ing form.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Estaba acostumbrado a trabajar desde casa.'",
+    "answer": "I was used to working from home.",
+    "timestamp": "2026-09-11",
+    "description": "'Be used to + -ing' can be used in the past by changing the verb 'be'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Estaré acostumbrado a trabajar desde casa.'",
+    "answer": "I will be used to working from home.",
+    "timestamp": "2026-09-11",
+    "description": "'Be used to + -ing' can be used in different tenses; the key is the presence of 'be'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Solía trabajar aquí.'",
+    "answer": "I used to work here.",
+    "timestamp": "2026-09-11",
+    "description": "Use 'used to + base verb' for a past habit or state.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Ella solía fumar.'",
+    "answer": "She used to smoke.",
+    "timestamp": "2026-09-11",
+    "description": "Without 'be', 'used to' is followed by the base form and refers to a past habit or state.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "What is the key structural clue that distinguishes 'be used to doing' from 'used to do'?",
+    "answer": "Look for the verb 'be': be + used to is followed by a noun or -ing form; used to without be is followed by a base verb.",
+    "timestamp": "2026-09-11",
+    "description": "The distinction is structural, not simply present versus past.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Me estoy acostumbrando a levantarme temprano.'",
+    "answer": "I'm getting used to getting up early.",
+    "timestamp": "2026-09-11",
+    "description": "Use 'get used to + -ing' for the process of becoming accustomed to something.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Salió sin decir adiós.'",
+    "answer": "He left without saying goodbye.",
+    "timestamp": "2026-09-11",
+    "description": "After a preposition such as 'without', use the -ing form.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Fui a la tienda para comprar leche.'",
+    "answer": "I went to the shop to buy milk.",
+    "timestamp": "2026-09-11",
+    "description": "Use the to-infinitive to express purpose.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Le pedí que me ayudara.'",
+    "answer": "I asked him to help me.",
+    "timestamp": "2026-09-11",
+    "description": "Use 'ask + object + to-infinitive'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Me hicieron esperar fuera.'",
+    "answer": "They made me wait outside.",
+    "timestamp": "2026-09-11",
+    "description": "Use 'make + object + bare infinitive' in the active voice.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'No me dejan usar el coche.'",
+    "answer": "They don't let me use the car.",
+    "timestamp": "2026-09-11",
+    "description": "Use 'let + object + bare infinitive'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Recuerda cerrar la puerta.'",
+    "answer": "Remember to lock the door.",
+    "timestamp": "2026-09-11",
+    "description": "Use 'remember + to-infinitive' when you must remember to perform an action.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Recuerdo haber cerrado la puerta.'",
+    "answer": "I remember locking the door.",
+    "timestamp": "2026-09-11",
+    "description": "Use 'remember + -ing' for a memory of an action that already happened.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Se olvidó de enviar el correo.'",
+    "answer": "He forgot to send the email.",
+    "timestamp": "2026-09-11",
+    "description": "Use 'forget + to-infinitive' when an intended action was not done.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Nunca olvidaré conocerla por primera vez.'",
+    "answer": "I'll never forget meeting her for the first time.",
+    "timestamp": "2026-09-11",
+    "description": "Use 'forget + -ing' when referring to the memory of a past event.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Dejó de fumar el año pasado.'",
+    "answer": "He stopped smoking last year.",
+    "timestamp": "2026-09-11",
+    "description": "Use 'stop + -ing' to mean ending an activity.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Se paró para comprar agua.'",
+    "answer": "He stopped to buy some water.",
+    "timestamp": "2026-09-11",
+    "description": "Use 'stop + to-infinitive' when one activity is interrupted in order to do another.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Prueba a reiniciar el ordenador.'",
+    "answer": "Try restarting the computer.",
+    "timestamp": "2026-09-11",
+    "description": "Use 'try + -ing' when suggesting an experiment or possible solution.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Intentó abrir la puerta, pero no pudo.'",
+    "answer": "He tried to open the door, but he couldn't.",
+    "timestamp": "2026-09-11",
+    "description": "Use 'try + to-infinitive' for making an effort to do something difficult.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "What form normally follows a preposition: a to-infinitive or an -ing form?",
+    "answer": "An -ing form.",
+    "timestamp": "2026-09-11",
+    "description": "Examples include 'after eating', 'without saying', and 'good at explaining'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Which structure means 'solía hacerlo': 'used to do' or 'be used to doing'?",
+    "answer": "used to do",
+    "timestamp": "2026-09-11",
+    "description": "'Used to + base verb' describes a past habit or state.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Which structure means 'estar acostumbrado a hacerlo': 'used to do' or 'be used to doing'?",
+    "answer": "be used to doing",
+    "timestamp": "2026-09-11",
+    "description": "'Be used to + noun/-ing' means to be accustomed to something.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Es difícil aprender un idioma nuevo.'",
+    "answer": "It's difficult to learn a new language.",
+    "timestamp": "2026-09-11",
+    "description": "Adjectives such as 'difficult' are commonly followed by a to-infinitive in this structure.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Aunque estaba cansado, terminó el trabajo.'",
+    "answer": "Even though he was tired, he finished the work.",
+    "timestamp": "2026-09-11",
+    "description": "Use 'even though' for a real or known fact that contrasts with the main clause.",
+    "category": "CONNECTORS"
+  },
+  {
+    "question": "Translate into English: 'Aunque llueva mañana, iremos.'",
+    "answer": "Even if it rains tomorrow, we'll go.",
+    "timestamp": "2026-09-11",
+    "description": "Use 'even if' for a hypothetical or uncertain condition.",
+    "category": "CONNECTORS"
+  },
+  {
+    "question": "What is the difference between 'even though' and 'even if'?",
+    "answer": "'Even though' introduces a real or known fact; 'even if' introduces a hypothetical or uncertain condition.",
+    "timestamp": "2026-09-11",
+    "description": "Both can be translated as 'aunque', but the factual versus hypothetical distinction changes which one is appropriate.",
+    "category": "CONNECTORS"
+  },
+  {
+    "question": "Translate into English: 'Aunque sé que es difícil, quiero intentarlo.'",
+    "answer": "Even though I know it's difficult, I want to try it.",
+    "timestamp": "2026-09-11",
+    "description": "The difficulty is presented as a fact, so use 'even though'.",
+    "category": "CONNECTORS"
+  },
+  {
+    "question": "Translate into English: 'Aunque fuera difícil, lo intentaría.'",
+    "answer": "Even if it were difficult, I would try it.",
+    "timestamp": "2026-09-11",
+    "description": "The condition is hypothetical, so use 'even if'.",
+    "category": "CONNECTORS"
+  }
+]
