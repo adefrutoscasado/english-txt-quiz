@@ -49,14 +49,14 @@
     "category": "PREPOSITIONS"
   },
   {
-    "question": "Translate the connector 'sin embargo' into English.",
-    "answer": "however",
+    "question": "What connector could you use instead of repeatedly saying 'so' when introducing a consequence?",
+    "answer": "therefore",
     "timestamp": "2026-09-14",
-    "description": "Use 'however' to introduce a contrast between two ideas.",
+    "description": "'Therefore' is a more formal alternative for expressing a consequence, useful when explaining ideas in interviews or technical English.",
     "category": "CONNECTORS"
   },
   {
-    "question": "Which connector can you use to introduce the most interesting part of an explanation in an informal conversation?",
+    "question": "What informal transition can introduce the most interesting part of an explanation?",
     "answer": "Here comes the cool part.",
     "timestamp": "2026-09-14",
     "description": "A natural conversational transition used before revealing an interesting or surprising point.",
