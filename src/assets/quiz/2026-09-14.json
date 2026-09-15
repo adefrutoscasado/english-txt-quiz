@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Translate into English: 'Creo que he encontrado la forma más barata de mejorar mi inglés.'",
+    "answer": "I think I've found the cheapest way to improve my English.",
+    "timestamp": "2026-09-14",
+    "description": "Use the superlative 'cheapest', not 'most cheap'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Quiero contarte un proyecto que he creado.'",
+    "answer": "I want to tell you about a project I created.",
+    "timestamp": "2026-09-14",
+    "description": "Use 'tell someone about something' when you mean contarle algo a alguien.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Cuando termina la conversación, pido una revisión de mis errores.'",
+    "answer": "After the conversation is over, I ask for a review of my mistakes.",
+    "timestamp": "2026-09-14",
+    "description": "'The conversation is over' is a natural way to say that a conversation has finished.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'Mi mayor reto es la fluidez al conversar.'",
+    "answer": "My biggest challenge is conversational flow.",
+    "timestamp": "2026-09-14",
+    "description": "'Conversational flow' describes the ability to speak smoothly and naturally.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'Llevo solo tres días trabajando en este sistema.'",
+    "answer": "I've been working on this system for only three days.",
+    "timestamp": "2026-09-14",
+    "description": "Use the present perfect continuous for an activity that started in the past and continues now.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Ya he notado que he aprendido algunas palabras nuevas.'",
+    "answer": "I've already noticed that I've learned some new words.",
+    "timestamp": "2026-09-14",
+    "description": "Practise 'I've already noticed...' as an automatic conversational chunk.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'En las entrevistas a veces me preguntan cómo uso la IA en mi vida personal.'",
+    "answer": "In interviews, I'm sometimes asked how I use AI in my personal life.",
+    "timestamp": "2026-09-14",
+    "description": "Use 'in my personal life', and the passive 'I'm asked' when the interviewer is not important to the sentence.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Puedo seguir practicando y repasando mis errores mientras voy en el tren.'",
+    "answer": "I can keep practicing and reviewing my mistakes while I'm on the train.",
+    "timestamp": "2026-09-14",
+    "description": "After 'keep', use the -ing form: keep practicing, keep reviewing.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Les conté a unos compañeros mi método y les impresionó.'",
+    "answer": "I told some teammates about my approach, and they were impressed by it.",
+    "timestamp": "2026-09-14",
+    "description": "Use 'tell someone about something' and 'be impressed by something'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Ahora mismo iría solo.'",
+    "answer": "Right now, I'd go alone.",
+    "timestamp": "2026-09-14",
+    "description": "Use 'would' for a hypothetical choice: I'd go alone.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Mi día perfecto incluiría levantarme temprano y ver el atardecer en la playa.'",
+    "answer": "My perfect day would involve waking up early and watching the sunset at the beach.",
+    "timestamp": "2026-09-14",
+    "description": "Use 'would involve + -ing' to describe the activities that form part of an imagined situation.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Hay una ruta de senderismo famosa en Italia que quiero hacer.'",
+    "answer": "There's a famous trek in Italy that I want to do.",
+    "timestamp": "2026-09-14",
+    "description": "A 'trek' is typically a longer or more demanding hiking journey.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'Conocí a un italiano que me habló de esa ruta.'",
+    "answer": "I met an Italian guy who told me about that trek.",
+    "timestamp": "2026-09-14",
+    "description": "Say 'tell someone about something', not 'talk someone about something'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Me salieron muchas ampollas en los pies.'",
+    "answer": "I got a lot of blisters on my feet.",
+    "timestamp": "2026-09-14",
+    "description": "'Blister' means 'ampolla' caused by friction or rubbing on the skin.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'Como me dolían los pies, empecé a caminar de forma desigual.'",
+    "answer": "Because my feet were hurting, I started walking unevenly.",
+    "timestamp": "2026-09-14",
+    "description": "'Walk unevenly' can describe changing your gait because of pain or discomfort.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'Eso hizo que me doliera la rodilla.'",
+    "answer": "That made my knee hurt.",
+    "timestamp": "2026-09-14",
+    "description": "After 'make + object', use the bare infinitive: made my knee hurt.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Mis padres vinieron a recogerme porque no podía caminar por mi cuenta.'",
+    "answer": "My parents came to get me because I couldn't walk on my own.",
+    "timestamp": "2026-09-14",
+    "description": "'Come to get someone' means venir a buscar a alguien; 'on my own' means without help.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'Quiero aprender conectores y otros tipos de vocabulario.'",
+    "answer": "I want to learn connectors and other kinds of vocabulary.",
+    "timestamp": "2026-09-14",
+    "description": "Use the plural 'other kinds of vocabulary' when referring to multiple categories.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Además, puedo repasar los ejercicios desde cualquier lugar.'",
+    "answer": "Moreover, I can review the exercises from anywhere.",
+    "timestamp": "2026-09-14",
+    "description": "'Moreover' is a useful formal connector for adding another supporting point.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'Sin embargo, aprender palabras nuevas no es suficiente; necesito usarlas de forma automática.'",
+    "answer": "However, learning new words isn't enough; I need to use them automatically.",
+    "timestamp": "2026-09-14",
+    "description": "'However' introduces a contrast and is useful in both professional and general English.",
+    "category": "VOCABULARY"
+  }
+]
