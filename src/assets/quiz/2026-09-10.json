@@ -1,0 +1,128 @@
+[
+  {
+    "question": "Translate into English: 'Ella está acostumbrada a trabajar con plazos ajustados.'",
+    "answer": "She is used to working with tight deadlines.",
+    "timestamp": "2026-09-10",
+    "description": "Use 'be used to + -ing' to talk about something that feels normal because of experience.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Daniel quiere solicitar una beca internacional.'",
+    "answer": "Daniel wants to apply for an international scholarship.",
+    "timestamp": "2026-09-10",
+    "description": "Use 'apply for' with a job, scholarship, grant, course, or other opportunity.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'El tren llegó a la estación justo a tiempo.'",
+    "answer": "The train arrived at the station just in time.",
+    "timestamp": "2026-09-10",
+    "description": "Use 'arrive at' for specific places such as a station, building, or meeting point.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate naturally into English: 'El vigilante trabaja ocho horas por noche.'",
+    "answer": "The security guard works eight hours a night.",
+    "timestamp": "2026-09-10",
+    "description": "For regular rates, 'a night' is often more natural in conversation than 'per night'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'La policía anotó la matrícula del vehículo.'",
+    "answer": "The police wrote down the vehicle's license plate.",
+    "timestamp": "2026-09-10",
+    "description": "'License plate' means the identifying plate on a vehicle.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'El jardinero encendió los aspersores al amanecer.'",
+    "answer": "The gardener turned on the sprinklers at dawn.",
+    "timestamp": "2026-09-10",
+    "description": "'Sprinkler' means aspersor. In the plural, use 'sprinklers'.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate naturally into English: 'Quiero una guarnición que acompañe al plato principal.'",
+    "answer": "I want a side to go with the main course.",
+    "timestamp": "2026-09-10",
+    "description": "'A side' or 'side dish' is food served with the main dish. 'To go with' is a natural expression for accompaniment.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'El museo registró el número de visitantes de ese día.'",
+    "answer": "The museum recorded the number of visitors that day.",
+    "timestamp": "2026-09-10",
+    "description": "Use 'number of' with countable nouns such as visitors, books, or cars. Use 'amount of' with uncountable nouns.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'El hospital da prioridad a los casos urgentes.'",
+    "answer": "The hospital gives priority to urgent cases.",
+    "timestamp": "2026-09-10",
+    "description": "The natural expression is 'give priority to', without 'the' before 'priority'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate naturally into English: 'El plan está muy bien pensado.'",
+    "answer": "The plan is very well thought out.",
+    "timestamp": "2026-09-10",
+    "description": "'Well thought out' means carefully planned or considered.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Rewrite naturally: 'The device can make the lights to be deactivated.'",
+    "answer": "The device can deactivate the lights.",
+    "timestamp": "2026-09-10",
+    "description": "Prefer the direct verb 'deactivate'. Another correct option is: 'The lights can be deactivated.'",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'El dron pasó por varios puntos de control antes de aterrizar.'",
+    "answer": "The drone passed through several checkpoints before landing.",
+    "timestamp": "2026-09-10",
+    "description": "Use 'pass through' for moving through a place, checkpoint, area, or passage.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'Mi trabajo ideal sería diseñar videojuegos.'",
+    "answer": "My ideal job would be to design video games.",
+    "timestamp": "2026-09-10",
+    "description": "Use 'would be' for hypothetical or imagined situations.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "What does 'motif' mean in music?",
+    "answer": "A short musical idea or phrase that can be repeated or developed.",
+    "timestamp": "2026-09-10",
+    "description": "A motif can be only a few notes and may become the basis for a larger piece.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'El bombero habló con calma durante la emergencia.'",
+    "answer": "The firefighter spoke calmly during the emergency.",
+    "timestamp": "2026-09-10",
+    "description": "'Firefighter' is the standard gender-neutral word for bombero or bombera.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'A pesar de su éxito, sigue siendo muy humilde.'",
+    "answer": "Despite their success, they remain very humble.",
+    "timestamp": "2026-09-10",
+    "description": "'Humble' describes someone who does not act as if they are more important than others.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Say the word 'continue' aloud and identify the stressed syllable.",
+    "answer": "The stress is on the second syllable: con-TIN-you.",
+    "timestamp": "2026-09-10",
+    "description": "The final sound is like 'you'. Focus on stressing the second syllable.",
+    "category": "PRONUNCIATION"
+  },
+  {
+    "question": "Say the word 'sprinklers' aloud. Which consonant cluster needs special attention?",
+    "answer": "The consonant cluster around -nkl-.",
+    "timestamp": "2026-09-10",
+    "description": "Practise 'sprinkle' first, then add the plural ending to build up to 'sprinklers'.",
+    "category": "PRONUNCIATION"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "question": "Translate naturally into English: 'Escalar es mucho más divertido que correr en una cinta.'",
+    "answer": "Climbing is much more fun than running on a treadmill.",
+    "timestamp": "2026-09-12",
+    "description": "Use 'more fun' for something more enjoyable. 'Funnier' means more likely to make someone laugh.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'Últimamente no he practicado mucho.'",
+    "answer": "I haven't practised much lately.",
+    "timestamp": "2026-09-12",
+    "description": "Use the present perfect with 'lately' when talking about a recent period connected to the present.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Sustituimos el servicio antiguo por uno más sencillo.'",
+    "answer": "We replaced the old service with a simpler one.",
+    "timestamp": "2026-09-12",
+    "description": "The standard pattern is 'replace X with Y'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Maya quiere mejorar en TypeScript.'",
+    "answer": "Maya wants to get better at TypeScript.",
+    "timestamp": "2026-09-12",
+    "description": "Use 'get better at' before a skill, subject, activity, or technology.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Él usó Python en el pasado.'",
+    "answer": "He used Python in the past.",
+    "timestamp": "2026-09-12",
+    "description": "The fixed expression is 'in the past'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Ella ha liderado varias decisiones técnicas.'",
+    "answer": "She has led several technical decisions.",
+    "timestamp": "2026-09-12",
+    "description": "The irregular forms are lead, led, led. 'Leaded' is not used for the verb meaning to guide or direct.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'El responsable anima al equipo a tomar decisiones importantes.'",
+    "answer": "The manager encourages the team to make important decisions.",
+    "timestamp": "2026-09-12",
+    "description": "Use 'encourage someone to do something' when helping or motivating another person to act.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate naturally into English: '¿Puedes recordarme de qué estábamos hablando?'",
+    "answer": "Can you remind me what we were talking about?",
+    "timestamp": "2026-09-12",
+    "description": "Use 'remind' when another person helps you remember something. 'Remember' describes recalling something yourself.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate naturally into English: 'La propuesta fue muy debatida antes de aprobarse.'",
+    "answer": "The proposal was heavily debated before it was approved.",
+    "timestamp": "2026-09-12",
+    "description": "'Heavily debated' is a natural collocation for a subject or proposal that receives a lot of serious discussion.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'Necesitamos desacoplar estos componentes para que puedan cambiar de forma independiente.'",
+    "answer": "We need to decouple these components so they can change independently.",
+    "timestamp": "2026-09-12",
+    "description": "In software architecture, 'decouple' means reducing direct dependencies between components.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'Como la mayoría de las búsquedas usaban rangos de tiempo, el equipo particionó la tabla por tiempo.'",
+    "answer": "Because most searches used time ranges, the team partitioned the table by time.",
+    "timestamp": "2026-09-12",
+    "description": "To 'partition' a table means to split its data into smaller logical sections, often by a column such as time.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'Las consultas eran rápidas y no tenían tiempos de espera.'",
+    "answer": "The queries were fast and there were no timeouts.",
+    "timestamp": "2026-09-12",
+    "description": "Use the plural subject 'queries' with the plural verb 'were'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Aunque trabajo principalmente con un lenguaje, puedo crear una aplicación completa.'",
+    "answer": "Even though I mainly work with one language, I can build a complete application.",
+    "timestamp": "2026-09-12",
+    "description": "Use 'even though' to introduce a fact that contrasts with the main clause.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Entrené los gemelos después de hacer sentadillas.'",
+    "answer": "I trained my calves after doing squats.",
+    "timestamp": "2026-09-12",
+    "description": "The singular is 'calf' and the plural is 'calves'. 'Squat' means sentadilla.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate naturally into English: 'Después de la caminata, me dolían las piernas.'",
+    "answer": "After the walk, my legs were aching.",
+    "timestamp": "2026-09-12",
+    "description": "'Ache' works naturally as a verb for a dull or continuous pain. 'Legache' is not normally used.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Say the word 'result' aloud. Which syllable is stressed?",
+    "answer": "The second syllable: re-SULT.",
+    "timestamp": "2026-09-12",
+    "description": "Keep the main stress on the second syllable, not the first.",
+    "category": "PRONUNCIATION"
+  },
+  {
+    "question": "Translate naturally into English: 'Mis compañeros me ven como alguien en quien pueden confiar.'",
+    "answer": "My colleagues see me as someone they can trust.",
+    "timestamp": "2026-09-12",
+    "description": "'See someone as...' is a natural way to describe how other people perceive a person.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'Ahora tengo más confianza en mí mismo.'",
+    "answer": "Now I'm more confident in myself.",
+    "timestamp": "2026-09-12",
+    "description": "Use 'confident in' when talking about trust in your own abilities.",
+    "category": "GRAMMAR"
+  }
+]

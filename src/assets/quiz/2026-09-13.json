@@ -1,0 +1,205 @@
+[
+  {
+    "question": "Rewrite naturally: 'We can use Postman to make a request with an example JSON.'",
+    "answer": "Let's use Postman to send a request with an example JSON payload.",
+    "timestamp": "2026-09-13",
+    "description": "In API contexts, 'send a request' and 'JSON payload' are natural technical collocations.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Correct the sentence: 'I'll send you a example JSON.'",
+    "answer": "I'll send you an example JSON.",
+    "timestamp": "2026-09-13",
+    "description": "Use 'an' before a vowel sound, as in 'an example'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Complete the sentence: 'The API is responding ___ a 404.'",
+    "answer": "with",
+    "timestamp": "2026-09-13",
+    "description": "The natural pattern is 'respond with' a status code or response.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Rewrite naturally: 'I may use a bad URL.'",
+    "answer": "I might be using the wrong URL.",
+    "timestamp": "2026-09-13",
+    "description": "Use 'might be + -ing' for a possible current cause, and 'the wrong URL' rather than 'a bad URL'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate naturally into English: '¿Puedes volver a enviarme la URL por el chat?'",
+    "answer": "Could you send me the URL again in the chat?",
+    "timestamp": "2026-09-13",
+    "description": "'Send me X again' is a natural word order. 'In the chat' works for a generic chat conversation.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate naturally into English: 'Ahora devuelve un 403 Forbidden. ¿Necesito un token de autorización?'",
+    "answer": "Now it returns a 403 Forbidden. Do I need an authorization token?",
+    "timestamp": "2026-09-13",
+    "description": "In API contexts, 'authorization token' is more specific than asking for 'an authorization'.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Correct the sentence when describing your next action: 'I ask for permission or ask a teammate.'",
+    "answer": "I'll ask for permission or ask a teammate.",
+    "timestamp": "2026-09-13",
+    "description": "Use 'will' or its contraction 'I'll' for a decision about what to do next.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Compraron los ingredientes en la carnicería.'",
+    "answer": "They bought the ingredients at the butcher's.",
+    "timestamp": "2026-09-13",
+    "description": "'The butcher's' is a natural British English term for a butcher shop.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "What does 'stock' mean in a cooking context?",
+    "answer": "A flavoured liquid made by simmering ingredients, used as a base for soups, sauces, and other dishes.",
+    "timestamp": "2026-09-13",
+    "description": "In cooking, 'stock' corresponds to 'caldo' used as an ingredient or base.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'apio'.",
+    "answer": "celery",
+    "timestamp": "2026-09-13",
+    "description": "'Celery' is the English word for 'apio'.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'Ya he hecho esta receta antes.'",
+    "answer": "I've made this recipe before.",
+    "timestamp": "2026-09-13",
+    "description": "Use the present perfect for previous experience when no finished past time is specified.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Say the word 'unfortunately' aloud. Which syllable carries the main stress?",
+    "answer": "The second syllable: un-FOR-tchuh-nit-ly.",
+    "timestamp": "2026-09-13",
+    "description": "Keep the main stress on 'FOR' and reduce the unstressed syllables.",
+    "category": "PRONUNCIATION"
+  },
+  {
+    "question": "Translate naturally into English: 'Voy alternando entre las dos opciones.'",
+    "answer": "I alternate between the two options.",
+    "timestamp": "2026-09-13",
+    "description": "Use 'alternate between' when repeatedly switching from one option to another.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate naturally into English: 'Lo probé en un restaurante.'",
+    "answer": "I tried it at a restaurant.",
+    "timestamp": "2026-09-13",
+    "description": "Use the simple past for a finished experience in a past context, and 'at a restaurant' for the location.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Which word is normally used for prepared food: 'dish' or 'plate'?",
+    "answer": "dish",
+    "timestamp": "2026-09-13",
+    "description": "A 'dish' can mean a prepared type of food. A 'plate' is primarily the physical object the food is served on.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Correct the sentence: 'These dishes works well in containers.'",
+    "answer": "These dishes work well in containers.",
+    "timestamp": "2026-09-13",
+    "description": "A plural subject such as 'dishes' takes the base verb form 'work'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Rewrite using a phrasal verb: 'The company wants to reduce unnecessary spending.'",
+    "answer": "The company wants to cut back on unnecessary spending.",
+    "timestamp": "2026-09-13",
+    "description": "'Cut back on' means to reduce the amount or frequency of something.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'Córtalo en tiras, marínalo y luego dóralo.'",
+    "answer": "Cut it into strips, marinate it, then brown it.",
+    "timestamp": "2026-09-13",
+    "description": "Useful cooking verbs include 'cut into strips', 'marinate', and 'brown'.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Correct the sentence: 'Put in all inside.'",
+    "answer": "Put it all inside.",
+    "timestamp": "2026-09-13",
+    "description": "With 'put', place the object directly after the verb: 'put it all inside'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Complete the sentence: 'The database was several hundred gigabytes ___ size.'",
+    "answer": "in",
+    "timestamp": "2026-09-13",
+    "description": "Use the fixed expression 'in size' when describing how large something is.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Correct the sentence: 'The table contains 300 million of rows.'",
+    "answer": "The table contains 300 million rows.",
+    "timestamp": "2026-09-13",
+    "description": "Do not use 'of' between an exact number and the noun: '300 million rows'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate naturally into English: 'La mayoría de las consultas filtraban por rango de tiempo, así que tenía sentido particionar por tiempo.'",
+    "answer": "Most queries filtered by time range, so partitioning by time made sense.",
+    "timestamp": "2026-09-13",
+    "description": "'Filter by time range' and 'partition by time' are natural database expressions.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "What does partition pruning do in a partitioned database?",
+    "answer": "It limits the scan to the relevant partitions or chunks instead of scanning the whole table.",
+    "timestamp": "2026-09-13",
+    "description": "'Partition pruning' is the process of excluding irrelevant partitions from a query scan.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Rewrite naturally: 'The extension select only the relevant partitions to that query, so you are not query all the database.'",
+    "answer": "The extension selects only the partitions relevant to that query, so you're not scanning the entire database.",
+    "timestamp": "2026-09-13",
+    "description": "Use third-person singular 'selects', 'relevant to', and the verb 'scan' for database query work.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate into English: 'Al principio, las consultas podían tardar minutos o incluso agotar el tiempo de espera. Después del cambio, pasaron de minutos a segundos.'",
+    "answer": "Initially, queries could take minutes or even time out. After the change, they went from minutes to seconds.",
+    "timestamp": "2026-09-13",
+    "description": "'Time out' works as a verb. 'Go from X to Y' is a concise way to describe a performance improvement.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'El particionado mejoró el rendimiento de las consultas, pero hizo las copias de seguridad más complicadas.'",
+    "answer": "Partitioning improved query performance, but it made backups more complicated.",
+    "timestamp": "2026-09-13",
+    "description": "Useful technical collocations include 'query performance' and 'make backups more complicated'.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate naturally into English: 'No fui directamente responsable de esa parte.'",
+    "answer": "I wasn't directly responsible for that part.",
+    "timestamp": "2026-09-13",
+    "description": "'Be responsible for' is the standard collocation for ownership of a task or area.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'Llevamos hablando unos cuarenta minutos.'",
+    "answer": "We've been talking for about forty minutes.",
+    "timestamp": "2026-09-13",
+    "description": "Use the present perfect continuous with 'for' for an activity that started in the past and is still continuing.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "Translate naturally into English: 'Es hora de una revisión final de mis errores.'",
+    "answer": "It's time for a final review of my errors.",
+    "timestamp": "2026-09-13",
+    "description": "Use 'time for' before a noun phrase and 'review of' to specify what is being reviewed.",
+    "category": "GRAMMAR"
+  }
+]

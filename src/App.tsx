@@ -1,6 +1,6 @@
 import React, {useState, useEffect, useMemo} from 'react'
 import './App.css'
-import quiz from './assets/quiz.json'
+import quiz from './assets/quiz'
 import {reset, insertKnownQuestion, isAlreadyKnown} from './services/storage'
 
 const categories = Array.from(new Set(quiz.map(item => item.category))).sort()
