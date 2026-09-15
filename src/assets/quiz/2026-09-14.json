@@ -49,17 +49,10 @@
     "category": "PREPOSITIONS"
   },
   {
-    "question": "What connector could you use instead of repeatedly saying 'so' when introducing a consequence?",
-    "answer": "therefore",
-    "timestamp": "2026-09-14",
-    "description": "'Therefore' is a more formal alternative for expressing a consequence, useful when explaining ideas in interviews or technical English.",
-    "category": "CONNECTORS"
-  },
-  {
-    "question": "What informal transition can introduce the most interesting part of an explanation?",
+    "question": "How can you naturally introduce the interesting part of a story or explanation?",
     "answer": "Here comes the cool part.",
     "timestamp": "2026-09-14",
-    "description": "A natural conversational transition used before revealing an interesting or surprising point.",
+    "description": "A natural informal transition practised during the session.",
     "category": "CONNECTORS"
   },
   {
@@ -112,7 +105,7 @@
     "category": "VOCABULARY"
   },
   {
-    "question": "What is a natural English verb for 'venir a buscar a alguien'?",
+    "question": "What is a natural English expression for 'venir a buscar a alguien'?",
     "answer": "come to get someone",
     "timestamp": "2026-09-14",
     "description": "For example: 'My parents came to get me.'",
@@ -131,6 +124,13 @@
     "timestamp": "2026-09-14",
     "description": "Stress the second syllable. This word was specifically practised during the session.",
     "category": "PRONUNCIATION"
+  },
+  {
+    "question": "What is a natural way to say 'caminar de forma desigual' in English?",
+    "answer": "walk unevenly",
+    "timestamp": "2026-09-14",
+    "description": "Useful for describing a changed gait caused by pain or discomfort.",
+    "category": "VOCABULARY"
   },
   {
     "question": "Translate into English: 'Como me dolían los pies, empecé a caminar de forma desigual y eso hizo que me doliera la rodilla.'",
