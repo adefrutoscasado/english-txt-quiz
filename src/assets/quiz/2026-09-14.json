@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Translate into English: 'Creo que he encontrado la forma más barata de aprender.'",
+    "answer": "I think I've found the cheapest way to learn.",
+    "timestamp": "2026-09-14",
+    "description": "Use the superlative 'cheapest', not 'most cheap'.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "How do you say 'ampolla' in English?",
+    "answer": "blister",
+    "timestamp": "2026-09-14",
+    "description": "A blister is a small bubble on the skin, often caused by friction while walking or hiking.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "How do you say 'fluidez al conversar' in English?",
+    "answer": "conversational flow",
+    "timestamp": "2026-09-14",
+    "description": "A useful expression for describing how smoothly and naturally someone speaks in conversation.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Which preposition is missing? 'I told them ___ my approach.'",
+    "answer": "about",
+    "timestamp": "2026-09-14",
+    "description": "Use 'tell someone about something'.",
+    "category": "PREPOSITIONS"
+  },
+  {
+    "question": "Which preposition is missing? 'They were impressed ___ it.'",
+    "answer": "by",
+    "timestamp": "2026-09-14",
+    "description": "The usual collocation is 'be impressed by something'.",
+    "category": "PREPOSITIONS"
+  },
+  {
+    "question": "Which preposition is missing? 'I use AI ___ my personal life.'",
+    "answer": "in",
+    "timestamp": "2026-09-14",
+    "description": "Say 'in my personal life', not 'on my personal life'.",
+    "category": "PREPOSITIONS"
+  },
+  {
+    "question": "Which preposition is missing? 'I bought some hiking boots ___ a sports shop.'",
+    "answer": "at",
+    "timestamp": "2026-09-14",
+    "description": "Use 'at' for the shop or place where you bought something.",
+    "category": "PREPOSITIONS"
+  },
+  {
+    "question": "How can you naturally introduce the interesting part of a story or explanation?",
+    "answer": "Here comes the cool part.",
+    "timestamp": "2026-09-14",
+    "description": "A natural informal transition practised during the session.",
+    "category": "CONNECTORS"
+  },
+  {
+    "question": "Give the English chunk for 'llevo trabajando en esto...'.",
+    "answer": "I've been working on this...",
+    "timestamp": "2026-09-14",
+    "description": "Make this present-perfect-continuous opening automatic so you do not have to construct it word by word.",
+    "category": "AUTOMATICITY"
+  },
+  {
+    "question": "Give the English chunk for 'ya he notado que...'.",
+    "answer": "I've already noticed that...",
+    "timestamp": "2026-09-14",
+    "description": "Useful automatic chunk for talking about a change or improvement you have recently observed.",
+    "category": "AUTOMATICITY"
+  },
+  {
+    "question": "Give the English chunk for 'quiero contarte algo sobre...'.",
+    "answer": "I want to tell you about...",
+    "timestamp": "2026-09-14",
+    "description": "Use this when you want to tell someone something, rather than merely discuss a topic.",
+    "category": "AUTOMATICITY"
+  },
+  {
+    "question": "Give the English chunk for 'cuando termine la conversación...'.",
+    "answer": "After the conversation is over...",
+    "timestamp": "2026-09-14",
+    "description": "A natural reusable opening for describing what happens after a conversation finishes.",
+    "category": "AUTOMATICITY"
+  },
+  {
+    "question": "What verb form comes after 'keep' in 'keep practicing'?",
+    "answer": "The -ing form (gerund).",
+    "timestamp": "2026-09-14",
+    "description": "Use 'keep + -ing': keep practicing, keep reviewing, keep learning.",
+    "category": "GRAMMAR"
+  },
+  {
+    "question": "What is the natural English expression for 'por mi cuenta / sin ayuda'?",
+    "answer": "on my own",
+    "timestamp": "2026-09-14",
+    "description": "For example: 'I couldn't walk on my own.'",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "What verb do you normally use with 'the sunset' when you intentionally spend time looking at it?",
+    "answer": "watch",
+    "timestamp": "2026-09-14",
+    "description": "'Watch the sunset' is more idiomatic than 'see the sunset' when it is an intentional activity.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "What is a natural English expression for 'venir a buscar a alguien'?",
+    "answer": "come to get someone",
+    "timestamp": "2026-09-14",
+    "description": "For example: 'My parents came to get me.'",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "How do you say 'una ruta larga de senderismo' using one English noun?",
+    "answer": "trek",
+    "timestamp": "2026-09-14",
+    "description": "A trek is generally a longer or more demanding hiking journey.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Where is the main stress in the word 'continue'?",
+    "answer": "On the second syllable: con-TIN-ue.",
+    "timestamp": "2026-09-14",
+    "description": "Stress the second syllable. This word was specifically practised during the session.",
+    "category": "PRONUNCIATION"
+  },
+  {
+    "question": "What is a natural way to say 'caminar de forma desigual' in English?",
+    "answer": "walk unevenly",
+    "timestamp": "2026-09-14",
+    "description": "Useful for describing a changed gait caused by pain or discomfort.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'Como me dolían los pies, empecé a caminar de forma desigual y eso hizo que me doliera la rodilla.'",
+    "answer": "Because my feet were hurting, I started walking unevenly, and that made my knee hurt.",
+    "timestamp": "2026-09-14",
+    "description": "Practise 'start + -ing', the adverb 'unevenly', and 'make + object + bare infinitive'.",
+    "category": "GRAMMAR"
+  }
+]
