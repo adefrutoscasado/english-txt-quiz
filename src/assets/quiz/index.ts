@@ -3,6 +3,7 @@ import quiz20260911 from './2026-09-11.json'
 import quiz20260912 from './2026-09-12.json'
 import quiz20260913 from './2026-09-13.json'
 import quiz20260914 from './2026-09-14.json'
+import quiz20260916 from './2026-09-16.json'
 
 export interface QuizItem {
   question: string
@@ -18,6 +19,7 @@ const quiz: QuizItem[] = [
   ...quiz20260912,
   ...quiz20260913,
   ...quiz20260914,
+  ...quiz20260916,
 ]
 
 export default quiz
