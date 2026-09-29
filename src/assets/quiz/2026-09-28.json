@@ -882,10 +882,10 @@
     "category": "VOCABULARY"
   },
   {
-    "question": "Translate into English: 'primer contacto con algo'",
-    "answer": "first exposure to something",
+    "question": "Translate into English: 'Mi primer contacto con la escalada' (varias opciones)",
+    "answer": "My first time trying climbing / My introduction to climbing / My first experience with climbing / Getting a taste of climbing",
     "timestamp": "2026-09-28",
-    "description": "Vocabulary: 'primer contacto con algo' can be expressed as 'first exposure to something' in English.",
+    "description": "Use 'my first time trying' for a first attempt (My first time trying climbing was fun); 'my introduction to' for an introductory course (My introduction to climbing was through a beginner's course); 'my first experience with' for a more formal account (My first experience with climbing was at an indoor gym); and 'getting a taste of' for briefly trying it (I got a taste of climbing on holiday).",
     "category": "VOCABULARY"
   },
   {
@@ -1281,10 +1281,10 @@
     "category": "VOCABULARY"
   },
   {
-    "question": "Translate into English: 'valores'",
+    "question": "Translate into English: 'valores' (principios personales o ideológicos)",
     "answer": "values",
     "timestamp": "2026-09-28",
-    "description": "Vocabulary: 'valores' can be expressed as 'values' in English.",
+    "description": "Use 'values' for guiding principles, including political or ideological principles: 'Her political values influence her decisions.' For specific political positions or beliefs, use 'political views' or 'political beliefs': 'We have different political views.'",
     "category": "VOCABULARY"
   },
   {
@@ -1341,6 +1341,13 @@
     "answer": "servant",
     "timestamp": "2026-09-28",
     "description": "Vocabulary: 'sirviente' can be expressed as 'servant' in English.",
+    "category": "VOCABULARY"
+  },
+  {
+    "question": "Translate into English: 'toser'",
+    "answer": "to cough",
+    "timestamp": "2026-09-28",
+    "description": "'To cough' is the verb 'toser'; 'a cough' is the noun 'tos'.",
     "category": "VOCABULARY"
   }
 ]
